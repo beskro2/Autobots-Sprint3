@@ -4,7 +4,7 @@ Ben
 Nicholas
 Julio
 
-Saumya: Created a branch for sprint2, putting together initial unit testing files
+Saumya: Created a branch for sprint2, cloned repo, looking over new req's, putting together initial unit testing files
 
 Julio - Looking over test data from sprint 1 to include in sprint 2, exploring over the planetarium code 
 
