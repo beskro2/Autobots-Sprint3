@@ -4,6 +4,14 @@ Feature: Login Feature
   Background: Login Starting Actions
     Given the user is on the login page to login
 
+  Scenario Outline: Password characters are not visible
+    When      the user provides password "<password>"
+    Then      the password will never be visible in plain text
+
+    Examples:
+      |username                       |password                         |
+      |Batman	                        |Krypton-was_2000               |
+
   ## Happy Path
   Scenario: Users can login to an account with valid credentials
     When the user provides a valid login username

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 249227300,
+              "duration": 1824525200,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 53516500,
+              "duration": 302000400,
               "status": "passed"
             },
             "line": 6,
@@ -36,11 +36,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:08.059Z",
+        "start_timestamp": "2025-01-04T23:05:38.152Z",
         "before": [
           {
             "result": {
-              "duration": 128514700,
+              "duration": 714999900,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
         "steps": [
           {
             "result": {
-              "duration": 48005300,
+              "duration": 380997500,
               "status": "passed"
             },
             "line": 10,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 67045000,
+              "duration": 133002300,
               "status": "passed"
             },
             "line": 11,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 7000900,
+              "duration": 21998200,
               "status": "passed"
             },
             "line": 12,
@@ -93,7 +93,7 @@
           },
           {
             "result": {
-              "duration": 517181300,
+              "duration": 603999700,
               "status": "passed"
             },
             "line": 13,
@@ -114,7 +114,7 @@
         "steps": [
           {
             "result": {
-              "duration": 182283100,
+              "duration": 1284002000,
               "status": "passed"
             },
             "line": 5,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 34999800,
+              "duration": 124998700,
               "status": "passed"
             },
             "line": 6,
@@ -139,11 +139,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:09.178Z",
+        "start_timestamp": "2025-01-04T23:05:42.340Z",
         "before": [
           {
             "result": {
-              "duration": 10999000,
+              "duration": 46016000,
               "status": "passed"
             },
             "match": {
@@ -160,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60571000,
+              "duration": 303001400,
               "status": "passed"
             },
             "line": 17,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 68523300,
+              "duration": 102000600,
               "status": "passed"
             },
             "line": 18,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 7999400,
+              "duration": 36997700,
               "status": "passed"
             },
             "line": 19,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 6999400,
+              "duration": 36996300,
               "status": "passed"
             },
             "line": 20,
@@ -229,7 +229,7 @@
         "steps": [
           {
             "result": {
-              "duration": 193089700,
+              "duration": 839989800,
               "status": "passed"
             },
             "line": 5,
@@ -241,7 +241,7 @@
           },
           {
             "result": {
-              "duration": 36999900,
+              "duration": 300997400,
               "status": "passed"
             },
             "line": 6,
@@ -254,11 +254,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:09.558Z",
+        "start_timestamp": "2025-01-04T23:05:44.322Z",
         "before": [
           {
             "result": {
-              "duration": 11000800,
+              "duration": 155999300,
               "status": "passed"
             },
             "match": {
@@ -275,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67256500,
+              "duration": 141000200,
               "status": "passed"
             },
             "line": 17,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 54005400,
+              "duration": 426999200,
               "status": "passed"
             },
             "line": 18,
@@ -305,7 +305,7 @@
           },
           {
             "result": {
-              "duration": 5000500,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 19,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 5265700,
+              "duration": 55022500,
               "status": "passed"
             },
             "line": 20,
@@ -344,7 +344,7 @@
         "steps": [
           {
             "result": {
-              "duration": 188776700,
+              "duration": 5679002700,
               "status": "passed"
             },
             "line": 5,
@@ -356,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 35000200,
+              "duration": 147998800,
               "status": "passed"
             },
             "line": 6,
@@ -369,11 +369,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:09.935Z",
+        "start_timestamp": "2025-01-04T23:05:46.436Z",
         "before": [
           {
             "result": {
-              "duration": 12001100,
+              "duration": 249997600,
               "status": "passed"
             },
             "match": {
@@ -390,7 +390,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67108600,
+              "duration": 374001000,
               "status": "passed"
             },
             "line": 17,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 63998600,
+              "duration": 165999500,
               "status": "passed"
             },
             "line": 18,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 509965600,
+              "duration": 655000100,
               "status": "passed"
             },
             "line": 19,
@@ -438,7 +438,7 @@
           },
           {
             "result": {
-              "duration": 6011000,
+              "duration": 19993700,
               "status": "passed"
             },
             "line": 20,
@@ -470,7 +470,7 @@
         "steps": [
           {
             "result": {
-              "duration": 711875400,
+              "duration": 1059001700,
               "status": "passed"
             },
             "line": 5,
@@ -482,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 40000000,
+              "duration": 237999600,
               "status": "passed"
             },
             "line": 6,
@@ -495,11 +495,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:10.823Z",
+        "start_timestamp": "2025-01-04T23:05:53.752Z",
         "before": [
           {
             "result": {
-              "duration": 10500400,
+              "duration": 80003200,
               "status": "passed"
             },
             "match": {
@@ -516,7 +516,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36997800,
+              "duration": 94003400,
               "status": "passed"
             },
             "line": 10,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 27511600,
+              "duration": 98998500,
               "status": "passed"
             },
             "line": 11,
@@ -540,7 +540,7 @@
           },
           {
             "result": {
-              "duration": 4999700,
+              "duration": 67998500,
               "status": "passed"
             },
             "line": 12,
@@ -552,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 512992100,
+              "duration": 597638500,
               "status": "passed"
             },
             "line": 13,
@@ -573,7 +573,7 @@
         "steps": [
           {
             "result": {
-              "duration": 181357700,
+              "duration": 1099995500,
               "status": "passed"
             },
             "line": 5,
@@ -585,7 +585,7 @@
           },
           {
             "result": {
-              "duration": 43001600,
+              "duration": 132001600,
               "status": "passed"
             },
             "line": 6,
@@ -598,11 +598,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:12.172Z",
+        "start_timestamp": "2025-01-04T23:05:56.010Z",
         "before": [
           {
             "result": {
-              "duration": 8999900,
+              "duration": 33999600,
               "status": "passed"
             },
             "match": {
@@ -619,7 +619,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62033000,
+              "duration": 113013800,
               "status": "passed"
             },
             "line": 17,
@@ -637,7 +637,7 @@
           },
           {
             "result": {
-              "duration": 62505100,
+              "duration": 73994900,
               "status": "passed"
             },
             "line": 18,
@@ -649,7 +649,7 @@
           },
           {
             "result": {
-              "duration": 3001700,
+              "duration": 547980100,
               "status": "passed"
             },
             "line": 19,
@@ -667,7 +667,7 @@
           },
           {
             "result": {
-              "duration": 4999500,
+              "duration": 29989900,
               "status": "passed"
             },
             "line": 20,
@@ -688,7 +688,7 @@
         "steps": [
           {
             "result": {
-              "duration": 195421600,
+              "duration": 1045915800,
               "status": "passed"
             },
             "line": 5,
@@ -700,7 +700,7 @@
           },
           {
             "result": {
-              "duration": 44998100,
+              "duration": 113999900,
               "status": "passed"
             },
             "line": 6,
@@ -713,11 +713,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:12.542Z",
+        "start_timestamp": "2025-01-04T23:05:58.061Z",
         "before": [
           {
             "result": {
-              "duration": 11998200,
+              "duration": 36999700,
               "status": "passed"
             },
             "match": {
@@ -734,7 +734,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76523800,
+              "duration": 102000700,
               "status": "passed"
             },
             "line": 17,
@@ -752,7 +752,7 @@
           },
           {
             "result": {
-              "duration": 40997600,
+              "duration": 76007600,
               "status": "passed"
             },
             "line": 18,
@@ -764,7 +764,7 @@
           },
           {
             "result": {
-              "duration": 4008200,
+              "duration": 561174500,
               "status": "passed"
             },
             "line": 19,
@@ -782,7 +782,7 @@
           },
           {
             "result": {
-              "duration": 6000900,
+              "duration": 27996900,
               "status": "passed"
             },
             "line": 20,
@@ -803,7 +803,7 @@
         "steps": [
           {
             "result": {
-              "duration": 186517200,
+              "duration": 1031995200,
               "status": "passed"
             },
             "line": 5,
@@ -815,7 +815,7 @@
           },
           {
             "result": {
-              "duration": 43511300,
+              "duration": 108996800,
               "status": "passed"
             },
             "line": 6,
@@ -828,11 +828,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:12.924Z",
+        "start_timestamp": "2025-01-04T23:06:00.051Z",
         "before": [
           {
             "result": {
-              "duration": 11512300,
+              "duration": 51001400,
               "status": "passed"
             },
             "match": {
@@ -849,7 +849,7 @@
         "steps": [
           {
             "result": {
-              "duration": 59006200,
+              "duration": 91004100,
               "status": "passed"
             },
             "line": 17,
@@ -867,7 +867,7 @@
           },
           {
             "result": {
-              "duration": 69513700,
+              "duration": 92004600,
               "status": "passed"
             },
             "line": 18,
@@ -879,7 +879,7 @@
           },
           {
             "result": {
-              "duration": 4000300,
+              "duration": 542473600,
               "status": "passed"
             },
             "line": 19,
@@ -897,7 +897,7 @@
           },
           {
             "result": {
-              "duration": 6000700,
+              "duration": 26843500,
               "status": "passed"
             },
             "line": 20,
@@ -921,11 +921,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-12-30T23:00:13.307Z",
+        "start_timestamp": "2025-01-04T23:06:02.016Z",
         "before": [
           {
             "result": {
-              "duration": 11006400,
+              "duration": 33997100,
               "status": "passed"
             },
             "match": {
@@ -942,7 +942,7 @@
         "steps": [
           {
             "result": {
-              "duration": 163928300,
+              "duration": 443000700,
               "status": "passed"
             },
             "line": 6,
@@ -954,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 550052200,
+              "duration": 655997100,
               "status": "passed"
             },
             "line": 7,
@@ -967,11 +967,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:14.037Z",
+        "start_timestamp": "2025-01-04T23:06:03.159Z",
         "before": [
           {
             "result": {
-              "duration": 13998600,
+              "duration": 26998600,
               "status": "passed"
             },
             "match": {
@@ -988,7 +988,7 @@
         "steps": [
           {
             "result": {
-              "duration": 63002000,
+              "duration": 173007800,
               "status": "passed"
             },
             "line": 11,
@@ -1000,7 +1000,7 @@
           },
           {
             "result": {
-              "duration": 22522400,
+              "duration": 140995600,
               "status": "passed"
             },
             "line": 12,
@@ -1012,7 +1012,7 @@
           },
           {
             "result": {
-              "duration": 4000100,
+              "duration": 16001100,
               "status": "passed"
             },
             "line": 13,
@@ -1044,7 +1044,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14002200,
+              "duration": 88001800,
               "status": "passed"
             },
             "line": 5,
@@ -1057,11 +1057,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:14.143Z",
+        "start_timestamp": "2025-01-04T23:06:03.627Z",
         "before": [
           {
             "result": {
-              "duration": 12996000,
+              "duration": 40996400,
               "status": "passed"
             },
             "match": {
@@ -1069,7 +1069,80 @@
             }
           }
         ],
-        "line": 8,
+        "line": 13,
+        "name": "Password characters are not visible",
+        "description": "",
+        "id": "login-feature;password-characters-are-not-visible;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132000300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides password \"Krypton-was_2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krypton-was_2000\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.revature.steps.LoginSteps.the_user_provides_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125000700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the password will never be visible in plain text",
+            "match": {
+              "location": "com.revature.steps.LoginSteps.the_password_will_never_be_visible_in_plain_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login Starting Actions",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 112001400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page to login",
+            "match": {
+              "location": "com.revature.steps.LoginSteps.the_user_is_on_the_login_page_to_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-04T23:06:04.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 113999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.steps.hooks.Hooks.resetDatabase()"
+            }
+          }
+        ],
+        "line": 16,
         "name": "Users can login to an account with valid credentials",
         "description": "",
         "id": "login-feature;users-can-login-to-an-account-with-valid-credentials",
@@ -1078,10 +1151,10 @@
         "steps": [
           {
             "result": {
-              "duration": 48006300,
+              "duration": 181998200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 17,
             "name": "the user provides a valid login username",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_provides_a_valid_login_username()"
@@ -1090,10 +1163,10 @@
           },
           {
             "result": {
-              "duration": 69509400,
+              "duration": 111998300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 18,
             "name": "the user provides a valid login password",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_provides_a_valid_login_password()"
@@ -1102,10 +1175,10 @@
           },
           {
             "result": {
-              "duration": 33006400,
+              "duration": 146000700,
               "status": "passed"
             },
-            "line": 11,
+            "line": 19,
             "name": "the user submits the login credentials",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_submits_the_login_credentials()"
@@ -1114,10 +1187,10 @@
           },
           {
             "result": {
-              "duration": 20027200,
+              "duration": 542000900,
               "status": "passed"
             },
-            "line": 12,
+            "line": 20,
             "name": "the user should be redirected to the home page",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_should_be_redirected_to_the_register_page()"
@@ -1135,7 +1208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53004400,
+              "duration": 131003900,
               "status": "passed"
             },
             "line": 5,
@@ -1148,11 +1221,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:14.344Z",
+        "start_timestamp": "2025-01-04T23:06:05.270Z",
         "before": [
           {
             "result": {
-              "duration": 14995700,
+              "duration": 27997200,
               "status": "passed"
             },
             "match": {
@@ -1160,7 +1233,7 @@
             }
           }
         ],
-        "line": 24,
+        "line": 32,
         "name": "Users cannot login to an account with invalid credentials",
         "description": "",
         "id": "login-feature;users-cannot-login-to-an-account-with-invalid-credentials;;2",
@@ -1169,10 +1242,10 @@
         "steps": [
           {
             "result": {
-              "duration": 153547800,
+              "duration": 135001600,
               "status": "passed"
             },
-            "line": 16,
+            "line": 24,
             "name": "the user provides an invalid login username \"Batman\"",
             "match": {
               "arguments": [
@@ -1187,10 +1260,10 @@
           },
           {
             "result": {
-              "duration": 151519000,
+              "duration": 127998400,
               "status": "passed"
             },
-            "line": 17,
+            "line": 25,
             "name": "the user provides an invalid login password \"Iamtheintern1939\"",
             "match": {
               "arguments": [
@@ -1205,10 +1278,10 @@
           },
           {
             "result": {
-              "duration": 36511200,
+              "duration": 113991000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 26,
             "name": "the user submits the login credentials",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_submits_the_login_credentials()"
@@ -1217,10 +1290,10 @@
           },
           {
             "result": {
-              "duration": 504689500,
+              "duration": 577362100,
               "status": "passed"
             },
-            "line": 19,
+            "line": 27,
             "name": "the user should get a login browser alert saying \"Invalid credentials\"",
             "match": {
               "arguments": [
@@ -1235,10 +1308,10 @@
           },
           {
             "result": {
-              "duration": 2999300,
+              "duration": 10017900,
               "status": "passed"
             },
-            "line": 20,
+            "line": 28,
             "name": "the user should be redirected to the login page to login",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_should_be_redirected_to_the_login_page_to_login()"
@@ -1256,7 +1329,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13999800,
+              "duration": 74002600,
               "status": "passed"
             },
             "line": 5,
@@ -1269,11 +1342,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:15.265Z",
+        "start_timestamp": "2025-01-04T23:06:06.409Z",
         "before": [
           {
             "result": {
-              "duration": 12000500,
+              "duration": 28997800,
               "status": "passed"
             },
             "match": {
@@ -1281,7 +1354,7 @@
             }
           }
         ],
-        "line": 25,
+        "line": 33,
         "name": "Users cannot login to an account with invalid credentials",
         "description": "",
         "id": "login-feature;users-cannot-login-to-an-account-with-invalid-credentials;;3",
@@ -1290,10 +1363,10 @@
         "steps": [
           {
             "result": {
-              "duration": 42492400,
+              "duration": 113999000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 24,
             "name": "the user provides an invalid login username \"Robin\"",
             "match": {
               "arguments": [
@@ -1308,10 +1381,10 @@
           },
           {
             "result": {
-              "duration": 63000500,
+              "duration": 115998200,
               "status": "passed"
             },
-            "line": 17,
+            "line": 25,
             "name": "the user provides an invalid login password \"Iamtheintern1939\"",
             "match": {
               "arguments": [
@@ -1326,10 +1399,10 @@
           },
           {
             "result": {
-              "duration": 30004800,
+              "duration": 135002800,
               "status": "passed"
             },
-            "line": 18,
+            "line": 26,
             "name": "the user submits the login credentials",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_submits_the_login_credentials()"
@@ -1338,10 +1411,10 @@
           },
           {
             "result": {
-              "duration": 508213500,
+              "duration": 562316100,
               "status": "passed"
             },
-            "line": 19,
+            "line": 27,
             "name": "the user should get a login browser alert saying \"Invalid credentials\"",
             "match": {
               "arguments": [
@@ -1356,10 +1429,10 @@
           },
           {
             "result": {
-              "duration": 4999400,
+              "duration": 14994900,
               "status": "passed"
             },
-            "line": 20,
+            "line": 28,
             "name": "the user should be redirected to the login page to login",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_should_be_redirected_to_the_login_page_to_login()"
@@ -1377,7 +1450,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21006700,
+              "duration": 97999000,
               "status": "passed"
             },
             "line": 5,
@@ -1390,11 +1463,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:15.943Z",
+        "start_timestamp": "2025-01-04T23:06:07.471Z",
         "before": [
           {
             "result": {
-              "duration": 13992000,
+              "duration": 35998500,
               "status": "passed"
             },
             "match": {
@@ -1402,7 +1475,7 @@
             }
           }
         ],
-        "line": 26,
+        "line": 34,
         "name": "Users cannot login to an account with invalid credentials",
         "description": "",
         "id": "login-feature;users-cannot-login-to-an-account-with-invalid-credentials;;4",
@@ -1411,10 +1484,10 @@
         "steps": [
           {
             "result": {
-              "duration": 78506000,
+              "duration": 113999500,
               "status": "passed"
             },
-            "line": 16,
+            "line": 24,
             "name": "the user provides an invalid login username \"Robin\"",
             "match": {
               "arguments": [
@@ -1429,10 +1502,10 @@
           },
           {
             "result": {
-              "duration": 111530400,
+              "duration": 108997200,
               "status": "passed"
             },
-            "line": 17,
+            "line": 25,
             "name": "the user provides an invalid login password \"Iamthenight1939\"",
             "match": {
               "arguments": [
@@ -1447,10 +1520,10 @@
           },
           {
             "result": {
-              "duration": 41003400,
+              "duration": 109000400,
               "status": "passed"
             },
-            "line": 18,
+            "line": 26,
             "name": "the user submits the login credentials",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_submits_the_login_credentials()"
@@ -1459,10 +1532,10 @@
           },
           {
             "result": {
-              "duration": 8013100,
+              "duration": 525842200,
               "status": "passed"
             },
-            "line": 19,
+            "line": 27,
             "name": "the user should get a login browser alert saying \"Invalid credentials\"",
             "match": {
               "arguments": [
@@ -1477,10 +1550,10 @@
           },
           {
             "result": {
-              "duration": 4990900,
+              "duration": 9998200,
               "status": "passed"
             },
-            "line": 20,
+            "line": 28,
             "name": "the user should be redirected to the login page to login",
             "match": {
               "location": "com.revature.steps.LoginSteps.the_user_should_be_redirected_to_the_login_page_to_login()"
@@ -1501,11 +1574,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-12-30T23:00:16.224Z",
+        "start_timestamp": "2025-01-04T23:06:08.593Z",
         "before": [
           {
             "result": {
-              "duration": 12132600,
+              "duration": 32000100,
               "status": "passed"
             },
             "match": {
@@ -1522,7 +1595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 273778300,
+              "duration": 1112999800,
               "status": "passed"
             },
             "line": 4,
@@ -1534,7 +1607,7 @@
           },
           {
             "result": {
-              "duration": 37512700,
+              "duration": 87999800,
               "status": "passed"
             },
             "line": 5,
@@ -1546,7 +1619,7 @@
           },
           {
             "result": {
-              "duration": 20019800,
+              "duration": 76000800,
               "status": "passed"
             },
             "line": 6,
@@ -1578,7 +1651,7 @@
         "steps": [
           {
             "result": {
-              "duration": 652364600,
+              "duration": 1039000400,
               "status": "passed"
             },
             "line": 5,
@@ -1590,7 +1663,7 @@
           },
           {
             "result": {
-              "duration": 25000200,
+              "duration": 87993800,
               "status": "passed"
             },
             "line": 6,
@@ -1603,11 +1676,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:16.572Z",
+        "start_timestamp": "2025-01-04T23:06:09.919Z",
         "before": [
           {
             "result": {
-              "duration": 11999700,
+              "duration": 49002200,
               "status": "passed"
             },
             "match": {
@@ -1624,7 +1697,7 @@
         "steps": [
           {
             "result": {
-              "duration": 116049300,
+              "duration": 289998200,
               "status": "passed"
             },
             "line": 10,
@@ -1642,7 +1715,7 @@
           },
           {
             "result": {
-              "duration": 28001200,
+              "duration": 71999500,
               "status": "passed"
             },
             "line": 11,
@@ -1677,7 +1750,7 @@
           },
           {
             "result": {
-              "duration": 29524400,
+              "duration": 95002000,
               "status": "passed"
             },
             "line": 13,
@@ -1689,7 +1762,7 @@
           },
           {
             "result": {
-              "duration": 5008800,
+              "duration": 15999500,
               "status": "passed"
             },
             "line": 14,
@@ -1701,7 +1774,7 @@
           },
           {
             "result": {
-              "duration": 516398900,
+              "duration": 571757600,
               "status": "passed"
             },
             "line": 15,
@@ -1722,7 +1795,7 @@
         "steps": [
           {
             "result": {
-              "duration": 674651800,
+              "duration": 1078875900,
               "status": "passed"
             },
             "line": 5,
@@ -1734,7 +1807,7 @@
           },
           {
             "result": {
-              "duration": 25000600,
+              "duration": 70676800,
               "status": "passed"
             },
             "line": 6,
@@ -1747,11 +1820,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:17.961Z",
+        "start_timestamp": "2025-01-04T23:06:12.156Z",
         "before": [
           {
             "result": {
-              "duration": 20999600,
+              "duration": 25998500,
               "status": "passed"
             },
             "match": {
@@ -1768,7 +1841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 114508400,
+              "duration": 234995700,
               "status": "passed"
             },
             "line": 10,
@@ -1786,7 +1859,7 @@
           },
           {
             "result": {
-              "duration": 28004300,
+              "duration": 68004700,
               "status": "passed"
             },
             "line": 11,
@@ -1821,7 +1894,7 @@
           },
           {
             "result": {
-              "duration": 25507700,
+              "duration": 76001800,
               "status": "passed"
             },
             "line": 13,
@@ -1833,7 +1906,7 @@
           },
           {
             "result": {
-              "duration": 4000800,
+              "duration": 18994000,
               "status": "passed"
             },
             "line": 14,
@@ -1845,7 +1918,7 @@
           },
           {
             "result": {
-              "duration": 513398900,
+              "duration": 593541700,
               "status": "passed"
             },
             "line": 15,
@@ -1866,7 +1939,7 @@
         "steps": [
           {
             "result": {
-              "duration": 169110400,
+              "duration": 1124028200,
               "status": "passed"
             },
             "line": 5,
@@ -1878,7 +1951,7 @@
           },
           {
             "result": {
-              "duration": 31999700,
+              "duration": 80962600,
               "status": "passed"
             },
             "line": 6,
@@ -1891,11 +1964,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:19.370Z",
+        "start_timestamp": "2025-01-04T23:06:14.338Z",
         "before": [
           {
             "result": {
-              "duration": 9999400,
+              "duration": 28996900,
               "status": "passed"
             },
             "match": {
@@ -1912,7 +1985,7 @@
         "steps": [
           {
             "result": {
-              "duration": 83051200,
+              "duration": 247010300,
               "status": "passed"
             },
             "line": 10,
@@ -1930,7 +2003,7 @@
           },
           {
             "result": {
-              "duration": 56015000,
+              "duration": 64997900,
               "status": "passed"
             },
             "line": 11,
@@ -1948,8 +2021,9 @@
           },
           {
             "result": {
-              "duration": 16289400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_1.jpg\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.72366825ADA959530883B8371E443023.e.576, value\u003d[Ljava.lang.CharSequence;@e784320}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: moonImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.MoonCreate.uploadMoonImg(MoonCreate.java:59)\r\n\tat com.revature.steps.MoonCreateSteps.the_user_inputs_a_moon_file_type(MoonCreateSteps.java:28)\r\n\tat ✽.the user inputs a moon file type \"JPG\"(classpath:features/MoonCreate.feature:12)\r\n",
+              "duration": 31000600,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user inputs a moon file type \"JPG\"",
@@ -1966,8 +2040,7 @@
           },
           {
             "result": {
-              "duration": 24999500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user submits the moon",
@@ -1978,8 +2051,7 @@
           },
           {
             "result": {
-              "duration": 4000800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the user is redirected to the home page",
@@ -1990,8 +2062,7 @@
           },
           {
             "result": {
-              "duration": 517119300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "the data reflected has been refreshed to include the newly added moon",
@@ -2011,7 +2082,7 @@
         "steps": [
           {
             "result": {
-              "duration": 671525800,
+              "duration": 1035005600,
               "status": "passed"
             },
             "line": 5,
@@ -2023,7 +2094,7 @@
           },
           {
             "result": {
-              "duration": 23999900,
+              "duration": 90000600,
               "status": "passed"
             },
             "line": 6,
@@ -2036,11 +2107,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:20.288Z",
+        "start_timestamp": "2025-01-04T23:06:15.965Z",
         "before": [
           {
             "result": {
-              "duration": 10999400,
+              "duration": 41998700,
               "status": "passed"
             },
             "match": {
@@ -2057,7 +2128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 115553600,
+              "duration": 232004800,
               "status": "passed"
             },
             "line": 10,
@@ -2075,7 +2146,7 @@
           },
           {
             "result": {
-              "duration": 28509500,
+              "duration": 75011000,
               "status": "passed"
             },
             "line": 11,
@@ -2093,8 +2164,9 @@
           },
           {
             "result": {
-              "duration": 12000300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_1.jpg\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.AC7AB10E907E83DC2E2846BD5D3FE37D.e.611, value\u003d[Ljava.lang.CharSequence;@7df28f1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: moonImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.MoonCreate.uploadMoonImg(MoonCreate.java:59)\r\n\tat com.revature.steps.MoonCreateSteps.the_user_inputs_a_moon_file_type(MoonCreateSteps.java:28)\r\n\tat ✽.the user inputs a moon file type \"JPG\"(classpath:features/MoonCreate.feature:12)\r\n",
+              "duration": 27986200,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user inputs a moon file type \"JPG\"",
@@ -2111,8 +2183,7 @@
           },
           {
             "result": {
-              "duration": 26999700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user submits the moon",
@@ -2123,8 +2194,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the user is redirected to the home page",
@@ -2135,8 +2205,7 @@
           },
           {
             "result": {
-              "duration": 515510500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "the data reflected has been refreshed to include the newly added moon",
@@ -2156,7 +2225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 678556900,
+              "duration": 922031700,
               "status": "passed"
             },
             "line": 5,
@@ -2168,7 +2237,7 @@
           },
           {
             "result": {
-              "duration": 23000200,
+              "duration": 115964500,
               "status": "passed"
             },
             "line": 6,
@@ -2181,11 +2250,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:21.699Z",
+        "start_timestamp": "2025-01-04T23:06:17.493Z",
         "before": [
           {
             "result": {
-              "duration": 10998500,
+              "duration": 36997200,
               "status": "passed"
             },
             "match": {
@@ -2202,7 +2271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 105874600,
+              "duration": 234657900,
               "status": "passed"
             },
             "line": 10,
@@ -2220,7 +2289,7 @@
           },
           {
             "result": {
-              "duration": 26105500,
+              "duration": 79002700,
               "status": "passed"
             },
             "line": 11,
@@ -2238,8 +2307,9 @@
           },
           {
             "result": {
-              "duration": 11001100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_2.png\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.211DDD3F48D0A11F7F58A0F8CF171BF7.e.646, value\u003d[Ljava.lang.CharSequence;@43ac0a68}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: moonImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.MoonCreate.uploadMoonImg(MoonCreate.java:61)\r\n\tat com.revature.steps.MoonCreateSteps.the_user_inputs_a_moon_file_type(MoonCreateSteps.java:28)\r\n\tat ✽.the user inputs a moon file type \"PNG\"(classpath:features/MoonCreate.feature:12)\r\n",
+              "duration": 27996800,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user inputs a moon file type \"PNG\"",
@@ -2256,8 +2326,7 @@
           },
           {
             "result": {
-              "duration": 25999400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user submits the moon",
@@ -2268,8 +2337,7 @@
           },
           {
             "result": {
-              "duration": 3999600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the user is redirected to the home page",
@@ -2280,9 +2348,7 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.tagName: tr to be \"6\". Current number: \"5\" (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.MoonCreate.getNumberOfCelestialRows(MoonCreate.java:69)\r\n\tat com.revature.steps.MoonCreateSteps.the_data_reflected_has_been_refreshed_to_include_the_newly_added_moon(MoonCreateSteps.java:38)\r\n\tat ✽.the data reflected has been refreshed to include the newly added moon(classpath:features/MoonCreate.feature:15)\r\n",
-              "duration": 3042260200,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "the data reflected has been refreshed to include the newly added moon",
@@ -2302,7 +2368,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184515600,
+              "duration": 987001300,
               "status": "passed"
             },
             "line": 5,
@@ -2314,7 +2380,7 @@
           },
           {
             "result": {
-              "duration": 28049300,
+              "duration": 79002500,
               "status": "passed"
             },
             "line": 6,
@@ -2327,11 +2393,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:25.638Z",
+        "start_timestamp": "2025-01-04T23:06:18.926Z",
         "before": [
           {
             "result": {
-              "duration": 11004800,
+              "duration": 31996800,
               "status": "passed"
             },
             "match": {
@@ -2348,7 +2414,7 @@
         "steps": [
           {
             "result": {
-              "duration": 100510600,
+              "duration": 234135100,
               "status": "passed"
             },
             "line": 10,
@@ -2366,7 +2432,7 @@
           },
           {
             "result": {
-              "duration": 41000200,
+              "duration": 68970500,
               "status": "passed"
             },
             "line": 11,
@@ -2384,8 +2450,9 @@
           },
           {
             "result": {
-              "duration": 13000200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_2.png\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.BCAE9CD229B537EBE264DA6179015C27.e.681, value\u003d[Ljava.lang.CharSequence;@ea04cab}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: moonImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.MoonCreate.uploadMoonImg(MoonCreate.java:61)\r\n\tat com.revature.steps.MoonCreateSteps.the_user_inputs_a_moon_file_type(MoonCreateSteps.java:28)\r\n\tat ✽.the user inputs a moon file type \"PNG\"(classpath:features/MoonCreate.feature:12)\r\n",
+              "duration": 25991900,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user inputs a moon file type \"PNG\"",
@@ -2402,8 +2469,7 @@
           },
           {
             "result": {
-              "duration": 26513200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user submits the moon",
@@ -2414,8 +2480,7 @@
           },
           {
             "result": {
-              "duration": 3999700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the user is redirected to the home page",
@@ -2426,9 +2491,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.tagName: tr to be \"6\". Current number: \"5\" (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.MoonCreate.getNumberOfCelestialRows(MoonCreate.java:69)\r\n\tat com.revature.steps.MoonCreateSteps.the_data_reflected_has_been_refreshed_to_include_the_newly_added_moon(MoonCreateSteps.java:38)\r\n\tat ✽.the data reflected has been refreshed to include the newly added moon(classpath:features/MoonCreate.feature:15)\r\n",
-              "duration": 3037385700,
-              "status": "failed"
+              "duration": 1000200,
+              "status": "skipped"
             },
             "line": 15,
             "name": "the data reflected has been refreshed to include the newly added moon",
@@ -2448,7 +2512,7 @@
         "steps": [
           {
             "result": {
-              "duration": 183224100,
+              "duration": 1090195900,
               "status": "passed"
             },
             "line": 5,
@@ -2460,7 +2524,7 @@
           },
           {
             "result": {
-              "duration": 31000200,
+              "duration": 92997900,
               "status": "passed"
             },
             "line": 6,
@@ -2473,11 +2537,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:29.088Z",
+        "start_timestamp": "2025-01-04T23:06:20.378Z",
         "before": [
           {
             "result": {
-              "duration": 11000200,
+              "duration": 37999700,
               "status": "passed"
             },
             "match": {
@@ -2494,7 +2558,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172050700,
+              "duration": 344203200,
               "status": "passed"
             },
             "line": 28,
@@ -2512,7 +2576,7 @@
           },
           {
             "result": {
-              "duration": 28000700,
+              "duration": 67002900,
               "status": "passed"
             },
             "line": 29,
@@ -2547,7 +2611,7 @@
           },
           {
             "result": {
-              "duration": 30519200,
+              "duration": 79999000,
               "status": "passed"
             },
             "line": 31,
@@ -2559,7 +2623,7 @@
           },
           {
             "result": {
-              "duration": 3999600,
+              "duration": 57004300,
               "status": "passed"
             },
             "line": 32,
@@ -2577,7 +2641,7 @@
           },
           {
             "result": {
-              "duration": 5000700,
+              "duration": 22996800,
               "status": "passed"
             },
             "line": 33,
@@ -2598,7 +2662,7 @@
         "steps": [
           {
             "result": {
-              "duration": 674498600,
+              "duration": 1037994000,
               "status": "passed"
             },
             "line": 5,
@@ -2610,7 +2674,7 @@
           },
           {
             "result": {
-              "duration": 22001200,
+              "duration": 77999900,
               "status": "passed"
             },
             "line": 6,
@@ -2623,11 +2687,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:29.556Z",
+        "start_timestamp": "2025-01-04T23:06:22.206Z",
         "before": [
           {
             "result": {
-              "duration": 10995100,
+              "duration": 106998900,
               "status": "passed"
             },
             "match": {
@@ -2644,7 +2708,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135234200,
+              "duration": 277997400,
               "status": "passed"
             },
             "line": 28,
@@ -2662,7 +2726,7 @@
           },
           {
             "result": {
-              "duration": 24000600,
+              "duration": 68998900,
               "status": "passed"
             },
             "line": 29,
@@ -2697,7 +2761,7 @@
           },
           {
             "result": {
-              "duration": 28019100,
+              "duration": 71001900,
               "status": "passed"
             },
             "line": 31,
@@ -2709,7 +2773,7 @@
           },
           {
             "result": {
-              "duration": 4000300,
+              "duration": 17004000,
               "status": "passed"
             },
             "line": 32,
@@ -2727,7 +2791,7 @@
           },
           {
             "result": {
-              "duration": 8000400,
+              "duration": 22002700,
               "status": "passed"
             },
             "line": 33,
@@ -2748,7 +2812,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190889300,
+              "duration": 918998100,
               "status": "passed"
             },
             "line": 5,
@@ -2760,7 +2824,7 @@
           },
           {
             "result": {
-              "duration": 32919000,
+              "duration": 122127200,
               "status": "passed"
             },
             "line": 6,
@@ -2773,11 +2837,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:30.466Z",
+        "start_timestamp": "2025-01-04T23:06:23.900Z",
         "before": [
           {
             "result": {
-              "duration": 11007100,
+              "duration": 35001400,
               "status": "passed"
             },
             "match": {
@@ -2794,7 +2858,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39003500,
+              "duration": 229019200,
               "status": "passed"
             },
             "line": 28,
@@ -2812,7 +2876,7 @@
           },
           {
             "result": {
-              "duration": 28506800,
+              "duration": 67999800,
               "status": "passed"
             },
             "line": 29,
@@ -2847,7 +2911,7 @@
           },
           {
             "result": {
-              "duration": 61017600,
+              "duration": 73997800,
               "status": "passed"
             },
             "line": 31,
@@ -2860,7 +2924,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[I]nvalid moon name\u003e but was:\u003c[i]nvalid moon name\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_should_get_a_browser_alert_saying(PlanetCreateSteps.java:59)\r\n\tat ✽.the user should get a browser alert saying \"Invalid moon name\"(classpath:features/MoonCreate.feature:32)\r\n",
-              "duration": 504488000,
+              "duration": 553219900,
               "status": "failed"
             },
             "line": 32,
@@ -2898,7 +2962,7 @@
         "steps": [
           {
             "result": {
-              "duration": 685626600,
+              "duration": 1078988700,
               "status": "passed"
             },
             "line": 5,
@@ -2910,7 +2974,7 @@
           },
           {
             "result": {
-              "duration": 23508800,
+              "duration": 69999600,
               "status": "passed"
             },
             "line": 6,
@@ -2923,11 +2987,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:31.339Z",
+        "start_timestamp": "2025-01-04T23:06:25.926Z",
         "before": [
           {
             "result": {
-              "duration": 13166300,
+              "duration": 31009800,
               "status": "passed"
             },
             "match": {
@@ -2944,7 +3008,7 @@
         "steps": [
           {
             "result": {
-              "duration": 121510700,
+              "duration": 235000400,
               "status": "passed"
             },
             "line": 28,
@@ -2962,7 +3026,7 @@
           },
           {
             "result": {
-              "duration": 26000400,
+              "duration": 60013100,
               "status": "passed"
             },
             "line": 29,
@@ -2980,8 +3044,9 @@
           },
           {
             "result": {
-              "duration": 12999500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\bad_filetype.gif\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.6C1372E9FAB8E53F0970D7F8215AED71.e.821, value\u003d[Ljava.lang.CharSequence;@126f8f24}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: moonImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.MoonCreate.uploadMoonImg(MoonCreate.java:63)\r\n\tat com.revature.steps.MoonCreateSteps.the_user_inputs_a_moon_file_type(MoonCreateSteps.java:28)\r\n\tat ✽.the user inputs a moon file type \"GIF\"(classpath:features/MoonCreate.feature:30)\r\n",
+              "duration": 36989900,
+              "status": "failed"
             },
             "line": 30,
             "name": "the user inputs a moon file type \"GIF\"",
@@ -2998,8 +3063,7 @@
           },
           {
             "result": {
-              "duration": 25512400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "the user submits the moon",
@@ -3010,9 +3074,7 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.PlanetCreate.alertHandler(PlanetCreate.java:69)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_should_get_a_browser_alert_saying(PlanetCreateSteps.java:59)\r\n\tat ✽.the user should get a browser alert saying \"Invalid file type\"(classpath:features/MoonCreate.feature:32)\r\n",
-              "duration": 3025010900,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "the user should get a browser alert saying \"Invalid file type\"",
@@ -3049,7 +3111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 182138300,
+              "duration": 1036000000,
               "status": "passed"
             },
             "line": 5,
@@ -3061,7 +3123,7 @@
           },
           {
             "result": {
-              "duration": 28999600,
+              "duration": 89000200,
               "status": "passed"
             },
             "line": 6,
@@ -3074,11 +3136,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:35.275Z",
+        "start_timestamp": "2025-01-04T23:06:27.452Z",
         "before": [
           {
             "result": {
-              "duration": 8999400,
+              "duration": 37998900,
               "status": "passed"
             },
             "match": {
@@ -3095,7 +3157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 77512500,
+              "duration": 247005900,
               "status": "passed"
             },
             "line": 28,
@@ -3113,7 +3175,7 @@
           },
           {
             "result": {
-              "duration": 64002000,
+              "duration": 62997500,
               "status": "passed"
             },
             "line": 29,
@@ -3131,6 +3193,7 @@
           },
           {
             "result": {
+              "duration": 1011800,
               "status": "passed"
             },
             "line": 30,
@@ -3148,7 +3211,7 @@
           },
           {
             "result": {
-              "duration": 26133700,
+              "duration": 69984700,
               "status": "passed"
             },
             "line": 31,
@@ -3160,7 +3223,7 @@
           },
           {
             "result": {
-              "duration": 4000200,
+              "duration": 13001300,
               "status": "passed"
             },
             "line": 32,
@@ -3178,7 +3241,7 @@
           },
           {
             "result": {
-              "duration": 5999900,
+              "duration": 17997200,
               "status": "passed"
             },
             "line": 33,
@@ -3210,7 +3273,7 @@
         "steps": [
           {
             "result": {
-              "duration": 180255600,
+              "duration": 991279800,
               "status": "passed"
             },
             "line": 5,
@@ -3222,7 +3285,7 @@
           },
           {
             "result": {
-              "duration": 43999700,
+              "duration": 158997500,
               "status": "passed"
             },
             "line": 6,
@@ -3235,11 +3298,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:35.676Z",
+        "start_timestamp": "2025-01-04T23:06:29.039Z",
         "before": [
           {
             "result": {
-              "duration": 11000700,
+              "duration": 36992400,
               "status": "passed"
             },
             "match": {
@@ -3256,7 +3319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81035900,
+              "duration": 112998000,
               "status": "passed"
             },
             "line": 10,
@@ -3291,7 +3354,7 @@
           },
           {
             "result": {
-              "duration": 39004200,
+              "duration": 77999600,
               "status": "passed"
             },
             "line": 12,
@@ -3303,7 +3366,7 @@
           },
           {
             "result": {
-              "duration": 3999500,
+              "duration": 12998900,
               "status": "passed"
             },
             "line": 13,
@@ -3315,7 +3378,7 @@
           },
           {
             "result": {
-              "duration": 513694800,
+              "duration": 592181600,
               "status": "passed"
             },
             "line": 14,
@@ -3336,7 +3399,7 @@
         "steps": [
           {
             "result": {
-              "duration": 665570300,
+              "duration": 982997500,
               "status": "passed"
             },
             "line": 5,
@@ -3348,7 +3411,7 @@
           },
           {
             "result": {
-              "duration": 36058900,
+              "duration": 108004600,
               "status": "passed"
             },
             "line": 6,
@@ -3361,11 +3424,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:36.553Z",
+        "start_timestamp": "2025-01-04T23:06:31.033Z",
         "before": [
           {
             "result": {
-              "duration": 13000000,
+              "duration": 25003900,
               "status": "passed"
             },
             "match": {
@@ -3382,7 +3445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 70157300,
+              "duration": 110998000,
               "status": "passed"
             },
             "line": 10,
@@ -3400,8 +3463,9 @@
           },
           {
             "result": {
-              "duration": 13053900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_1.jpg\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.524C3C530B2E77C2FCD92F6A2CBF380D.e.962, value\u003d[Ljava.lang.CharSequence;@2c06b113}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: planetImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.PlanetCreate.uploadPlanetImg(PlanetCreate.java:48)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_inputs_a_valid_file_type(PlanetCreateSteps.java:37)\r\n\tat ✽.the user inputs a file type \"JPG\"(classpath:features/PlanetCreate.feature:11)\r\n",
+              "duration": 32997400,
+              "status": "failed"
             },
             "line": 11,
             "name": "the user inputs a file type \"JPG\"",
@@ -3418,8 +3482,7 @@
           },
           {
             "result": {
-              "duration": 27000400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user submits the planet",
@@ -3430,8 +3493,7 @@
           },
           {
             "result": {
-              "duration": 3999600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user is redirected to the home page",
@@ -3442,8 +3504,7 @@
           },
           {
             "result": {
-              "duration": 513020300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the data reflected has been refreshed to include the newly added planet",
@@ -3463,7 +3524,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187637800,
+              "duration": 1029970800,
               "status": "passed"
             },
             "line": 5,
@@ -3475,7 +3536,7 @@
           },
           {
             "result": {
-              "duration": 40003900,
+              "duration": 87998200,
               "status": "passed"
             },
             "line": 6,
@@ -3488,11 +3549,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:37.897Z",
+        "start_timestamp": "2025-01-04T23:06:32.310Z",
         "before": [
           {
             "result": {
-              "duration": 9999700,
+              "duration": 62032100,
               "status": "passed"
             },
             "match": {
@@ -3509,7 +3570,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78220100,
+              "duration": 97996200,
               "status": "passed"
             },
             "line": 10,
@@ -3527,8 +3588,9 @@
           },
           {
             "result": {
-              "duration": 12999600,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_2.png\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.B9298F034A8B7E12F242E279161C5393.e.997, value\u003d[Ljava.lang.CharSequence;@77324a58}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: planetImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.PlanetCreate.uploadPlanetImg(PlanetCreate.java:50)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_inputs_a_valid_file_type(PlanetCreateSteps.java:37)\r\n\tat ✽.the user inputs a file type \"PNG\"(classpath:features/PlanetCreate.feature:11)\r\n",
+              "duration": 40001200,
+              "status": "failed"
             },
             "line": 11,
             "name": "the user inputs a file type \"PNG\"",
@@ -3545,8 +3607,8 @@
           },
           {
             "result": {
-              "duration": 37309100,
-              "status": "passed"
+              "duration": 992700,
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user submits the planet",
@@ -3557,8 +3619,7 @@
           },
           {
             "result": {
-              "duration": 7000400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user is redirected to the home page",
@@ -3569,9 +3630,7 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.tagName: tr to be \"6\". Current number: \"5\" (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.PlanetCreate.getNumberOfCelestialRows(PlanetCreate.java:62)\r\n\tat com.revature.steps.PlanetCreateSteps.the_data_reflected_has_been_refreshed_to_include_the_newly_added_planet(PlanetCreateSteps.java:54)\r\n\tat ✽.the data reflected has been refreshed to include the newly added planet(classpath:features/PlanetCreate.feature:14)\r\n",
-              "duration": 3035202800,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the data reflected has been refreshed to include the newly added planet",
@@ -3591,7 +3650,7 @@
         "steps": [
           {
             "result": {
-              "duration": 673148300,
+              "duration": 1251376000,
               "status": "passed"
             },
             "line": 5,
@@ -3603,7 +3662,7 @@
           },
           {
             "result": {
-              "duration": 31998600,
+              "duration": 114848400,
               "status": "passed"
             },
             "line": 6,
@@ -3616,11 +3675,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:41.310Z",
+        "start_timestamp": "2025-01-04T23:06:33.651Z",
         "before": [
           {
             "result": {
-              "duration": 13002400,
+              "duration": 41975400,
               "status": "passed"
             },
             "match": {
@@ -3637,7 +3696,7 @@
         "steps": [
           {
             "result": {
-              "duration": 164020100,
+              "duration": 232998300,
               "status": "passed"
             },
             "line": 24,
@@ -3672,7 +3731,7 @@
           },
           {
             "result": {
-              "duration": 26999400,
+              "duration": 73998900,
               "status": "passed"
             },
             "line": 26,
@@ -3684,7 +3743,7 @@
           },
           {
             "result": {
-              "duration": 3000300,
+              "duration": 16035400,
               "status": "passed"
             },
             "line": 27,
@@ -3702,7 +3761,7 @@
           },
           {
             "result": {
-              "duration": 6999500,
+              "duration": 20969900,
               "status": "passed"
             },
             "line": 28,
@@ -3723,7 +3782,7 @@
         "steps": [
           {
             "result": {
-              "duration": 185077900,
+              "duration": 982985400,
               "status": "passed"
             },
             "line": 5,
@@ -3735,7 +3794,7 @@
           },
           {
             "result": {
-              "duration": 39356300,
+              "duration": 151988600,
               "status": "passed"
             },
             "line": 6,
@@ -3748,11 +3807,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:42.234Z",
+        "start_timestamp": "2025-01-04T23:06:35.412Z",
         "before": [
           {
             "result": {
-              "duration": 12003700,
+              "duration": 34013500,
               "status": "passed"
             },
             "match": {
@@ -3769,7 +3828,7 @@
         "steps": [
           {
             "result": {
-              "duration": 86508300,
+              "duration": 123994900,
               "status": "passed"
             },
             "line": 24,
@@ -3804,7 +3863,7 @@
           },
           {
             "result": {
-              "duration": 41999500,
+              "duration": 80002700,
               "status": "passed"
             },
             "line": 26,
@@ -3816,7 +3875,7 @@
           },
           {
             "result": {
-              "duration": 5000500,
+              "duration": 22997000,
               "status": "passed"
             },
             "line": 27,
@@ -3834,7 +3893,7 @@
           },
           {
             "result": {
-              "duration": 5999400,
+              "duration": 15995700,
               "status": "passed"
             },
             "line": 28,
@@ -3855,7 +3914,7 @@
         "steps": [
           {
             "result": {
-              "duration": 683574600,
+              "duration": 1045199500,
               "status": "passed"
             },
             "line": 5,
@@ -3867,7 +3926,7 @@
           },
           {
             "result": {
-              "duration": 33510900,
+              "duration": 120976700,
               "status": "passed"
             },
             "line": 6,
@@ -3880,11 +3939,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:42.613Z",
+        "start_timestamp": "2025-01-04T23:06:36.840Z",
         "before": [
           {
             "result": {
-              "duration": 12999700,
+              "duration": 40010200,
               "status": "passed"
             },
             "match": {
@@ -3901,7 +3960,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34507100,
+              "duration": 90490000,
               "status": "passed"
             },
             "line": 24,
@@ -3936,7 +3995,7 @@
           },
           {
             "result": {
-              "duration": 25999400,
+              "duration": 86003500,
               "status": "passed"
             },
             "line": 26,
@@ -3948,7 +4007,7 @@
           },
           {
             "result": {
-              "duration": 503509400,
+              "duration": 542044600,
               "status": "passed"
             },
             "line": 27,
@@ -3966,7 +4025,7 @@
           },
           {
             "result": {
-              "duration": 4999600,
+              "duration": 17994100,
               "status": "passed"
             },
             "line": 28,
@@ -3987,7 +4046,7 @@
         "steps": [
           {
             "result": {
-              "duration": 185140200,
+              "duration": 951997800,
               "status": "passed"
             },
             "line": 5,
@@ -3999,7 +4058,7 @@
           },
           {
             "result": {
-              "duration": 42139000,
+              "duration": 141001400,
               "status": "passed"
             },
             "line": 6,
@@ -4012,11 +4071,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:43.916Z",
+        "start_timestamp": "2025-01-04T23:06:38.792Z",
         "before": [
           {
             "result": {
-              "duration": 12999200,
+              "duration": 27997700,
               "status": "passed"
             },
             "match": {
@@ -4033,7 +4092,7 @@
         "steps": [
           {
             "result": {
-              "duration": 88009900,
+              "duration": 104999100,
               "status": "passed"
             },
             "line": 24,
@@ -4051,8 +4110,9 @@
           },
           {
             "result": {
-              "duration": 12058800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\bad_filetype.gif\n  (Session info: chrome\u003d131.0.6778.205)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [774492d394e8bd52fcf82288b9a381d5, sendKeysToElement {id\u003df.0EB1725BF9C5090D74978FF7A91AB629.d.B32CDF98FD8899CAFFE2DFDE90669F0B.e.1138, value\u003d[Ljava.lang.CharSequence;@2fba0dac}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (774492d394e8bd52fcf82288b9a381d5)] -\u003e id: planetImageInput]\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat com.revature.pom.PlanetCreate.uploadPlanetImg(PlanetCreate.java:52)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_inputs_a_valid_file_type(PlanetCreateSteps.java:37)\r\n\tat ✽.the user inputs a file type \"GIF\"(classpath:features/PlanetCreate.feature:25)\r\n",
+              "duration": 30001100,
+              "status": "failed"
             },
             "line": 25,
             "name": "the user inputs a file type \"GIF\"",
@@ -4069,8 +4129,7 @@
           },
           {
             "result": {
-              "duration": 28999900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "the user submits the planet",
@@ -4081,9 +4140,7 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.PlanetCreate.alertHandler(PlanetCreate.java:69)\r\n\tat com.revature.steps.PlanetCreateSteps.the_user_should_get_a_browser_alert_saying(PlanetCreateSteps.java:59)\r\n\tat ✽.the user should get a browser alert saying \"Invalid file type\"(classpath:features/PlanetCreate.feature:27)\r\n",
-              "duration": 3019832900,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "the user should get a browser alert saying \"Invalid file type\"",
@@ -4131,7 +4188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27517600,
+              "duration": 139001800,
               "status": "passed"
             },
             "line": 5,
@@ -4143,7 +4200,7 @@
           },
           {
             "result": {
-              "duration": 81506700,
+              "duration": 272999100,
               "status": "passed"
             },
             "line": 6,
@@ -4156,11 +4213,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:47.308Z",
+        "start_timestamp": "2025-01-04T23:06:40.065Z",
         "before": [
           {
             "result": {
-              "duration": 11998300,
+              "duration": 34998700,
               "status": "passed"
             },
             "match": {
@@ -4177,7 +4234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61057500,
+              "duration": 135999300,
               "status": "passed"
             },
             "line": 10,
@@ -4189,7 +4246,7 @@
           },
           {
             "result": {
-              "duration": 58003400,
+              "duration": 104999300,
               "status": "passed"
             },
             "line": 11,
@@ -4201,7 +4258,7 @@
           },
           {
             "result": {
-              "duration": 28064400,
+              "duration": 78003600,
               "status": "passed"
             },
             "line": 12,
@@ -4213,7 +4270,7 @@
           },
           {
             "result": {
-              "duration": 505749200,
+              "duration": 528884300,
               "status": "passed"
             },
             "line": 13,
@@ -4231,7 +4288,7 @@
           },
           {
             "result": {
-              "duration": 15999300,
+              "duration": 69996600,
               "status": "passed"
             },
             "line": 14,
@@ -4252,7 +4309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15000500,
+              "duration": 71997800,
               "status": "passed"
             },
             "line": 5,
@@ -4264,7 +4321,7 @@
           },
           {
             "result": {
-              "duration": 57392600,
+              "duration": 212005800,
               "status": "passed"
             },
             "line": 6,
@@ -4277,11 +4334,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:48.102Z",
+        "start_timestamp": "2025-01-04T23:06:41.452Z",
         "before": [
           {
             "result": {
-              "duration": 11999400,
+              "duration": 31004100,
               "status": "passed"
             },
             "match": {
@@ -4298,7 +4355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 47085900,
+              "duration": 165995200,
               "status": "passed"
             },
             "line": 18,
@@ -4316,7 +4373,7 @@
           },
           {
             "result": {
-              "duration": 70713400,
+              "duration": 101011800,
               "status": "passed"
             },
             "line": 19,
@@ -4334,7 +4391,7 @@
           },
           {
             "result": {
-              "duration": 30004300,
+              "duration": 79987300,
               "status": "passed"
             },
             "line": 20,
@@ -4346,8 +4403,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\xien6\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: def22f13d25368a234bffec395b07cd1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.Registration.alertHandler(Registration.java:56)\r\n\tat com.revature.steps.RegistrationSteps.the_user_should_get_a_registration_browser_alert_saying(RegistrationSteps.java:42)\r\n\tat ✽.the user should get a registration browser alert saying \"Invalid username\"(classpath:features/Registration.feature:21)\r\n",
-              "duration": 3017752300,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 3 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\SAUMYA~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59749/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 774492d394e8bd52fcf82288b9a381d5\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.pom.Registration.alertHandler(Registration.java:56)\r\n\tat com.revature.steps.RegistrationSteps.the_user_should_get_a_registration_browser_alert_saying(RegistrationSteps.java:42)\r\n\tat ✽.the user should get a registration browser alert saying \"Invalid username\"(classpath:features/Registration.feature:21)\r\n",
+              "duration": 3098807100,
               "status": "failed"
             },
             "line": 21,
@@ -4385,7 +4442,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38999600,
+              "duration": 121208300,
               "status": "passed"
             },
             "line": 5,
@@ -4397,7 +4454,7 @@
           },
           {
             "result": {
-              "duration": 85548600,
+              "duration": 193002400,
               "status": "passed"
             },
             "line": 6,
@@ -4410,11 +4467,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:51.358Z",
+        "start_timestamp": "2025-01-04T23:06:45.229Z",
         "before": [
           {
             "result": {
-              "duration": 12004700,
+              "duration": 26990400,
               "status": "passed"
             },
             "match": {
@@ -4431,7 +4488,7 @@
         "steps": [
           {
             "result": {
-              "duration": 77062200,
+              "duration": 125995700,
               "status": "passed"
             },
             "line": 18,
@@ -4449,7 +4506,7 @@
           },
           {
             "result": {
-              "duration": 65000200,
+              "duration": 119997900,
               "status": "passed"
             },
             "line": 19,
@@ -4467,7 +4524,7 @@
           },
           {
             "result": {
-              "duration": 28511800,
+              "duration": 84001000,
               "status": "passed"
             },
             "line": 20,
@@ -4479,7 +4536,7 @@
           },
           {
             "result": {
-              "duration": 4999400,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 21,
@@ -4497,7 +4554,7 @@
           },
           {
             "result": {
-              "duration": 4001000,
+              "duration": 13000400,
               "status": "passed"
             },
             "line": 22,
@@ -4518,7 +4575,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30001100,
+              "duration": 137003900,
               "status": "passed"
             },
             "line": 5,
@@ -4530,7 +4587,7 @@
           },
           {
             "result": {
-              "duration": 63511700,
+              "duration": 281992200,
               "status": "passed"
             },
             "line": 6,
@@ -4543,11 +4600,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:51.677Z",
+        "start_timestamp": "2025-01-04T23:06:45.941Z",
         "before": [
           {
             "result": {
-              "duration": 10998000,
+              "duration": 34002300,
               "status": "passed"
             },
             "match": {
@@ -4564,7 +4621,7 @@
         "steps": [
           {
             "result": {
-              "duration": 102109100,
+              "duration": 154001000,
               "status": "passed"
             },
             "line": 18,
@@ -4582,7 +4639,7 @@
           },
           {
             "result": {
-              "duration": 72003600,
+              "duration": 109999300,
               "status": "passed"
             },
             "line": 19,
@@ -4600,7 +4657,7 @@
           },
           {
             "result": {
-              "duration": 57067900,
+              "duration": 82002300,
               "status": "passed"
             },
             "line": 20,
@@ -4612,7 +4669,7 @@
           },
           {
             "result": {
-              "duration": 6000500,
+              "duration": 15998900,
               "status": "passed"
             },
             "line": 21,
@@ -4630,7 +4687,7 @@
           },
           {
             "result": {
-              "duration": 9999800,
+              "duration": 9003200,
               "status": "passed"
             },
             "line": 22,
@@ -4651,7 +4708,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55051400,
+              "duration": 108995700,
               "status": "passed"
             },
             "line": 5,
@@ -4663,7 +4720,7 @@
           },
           {
             "result": {
-              "duration": 96079300,
+              "duration": 189001500,
               "status": "passed"
             },
             "line": 6,
@@ -4676,11 +4733,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:52.030Z",
+        "start_timestamp": "2025-01-04T23:06:46.782Z",
         "before": [
           {
             "result": {
-              "duration": 12002800,
+              "duration": 38995700,
               "status": "passed"
             },
             "match": {
@@ -4697,7 +4754,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53072800,
+              "duration": 111000100,
               "status": "passed"
             },
             "line": 18,
@@ -4715,7 +4772,7 @@
           },
           {
             "result": {
-              "duration": 91118100,
+              "duration": 96002500,
               "status": "passed"
             },
             "line": 19,
@@ -4733,7 +4790,7 @@
           },
           {
             "result": {
-              "duration": 36200200,
+              "duration": 115994900,
               "status": "passed"
             },
             "line": 20,
@@ -4745,7 +4802,7 @@
           },
           {
             "result": {
-              "duration": 5000100,
+              "duration": 17001500,
               "status": "passed"
             },
             "line": 21,
@@ -4763,7 +4820,7 @@
           },
           {
             "result": {
-              "duration": 6000700,
+              "duration": 11003300,
               "status": "passed"
             },
             "line": 22,
@@ -4784,7 +4841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32999800,
+              "duration": 149995800,
               "status": "passed"
             },
             "line": 5,
@@ -4796,7 +4853,7 @@
           },
           {
             "result": {
-              "duration": 64091400,
+              "duration": 239999000,
               "status": "passed"
             },
             "line": 6,
@@ -4809,11 +4866,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:52.389Z",
+        "start_timestamp": "2025-01-04T23:06:47.497Z",
         "before": [
           {
             "result": {
-              "duration": 11999700,
+              "duration": 57000200,
               "status": "passed"
             },
             "match": {
@@ -4830,7 +4887,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62105000,
+              "duration": 118999000,
               "status": "passed"
             },
             "line": 18,
@@ -4848,7 +4905,7 @@
           },
           {
             "result": {
-              "duration": 85003800,
+              "duration": 99999000,
               "status": "passed"
             },
             "line": 19,
@@ -4866,7 +4923,7 @@
           },
           {
             "result": {
-              "duration": 30253200,
+              "duration": 78000700,
               "status": "passed"
             },
             "line": 20,
@@ -4878,7 +4935,7 @@
           },
           {
             "result": {
-              "duration": 5001700,
+              "duration": 15999600,
               "status": "passed"
             },
             "line": 21,
@@ -4896,7 +4953,7 @@
           },
           {
             "result": {
-              "duration": 4998300,
+              "duration": 20003700,
               "status": "passed"
             },
             "line": 22,
@@ -4917,7 +4974,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32001600,
+              "duration": 117000200,
               "status": "passed"
             },
             "line": 5,
@@ -4929,7 +4986,7 @@
           },
           {
             "result": {
-              "duration": 65039900,
+              "duration": 241995400,
               "status": "passed"
             },
             "line": 6,
@@ -4942,11 +4999,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:52.688Z",
+        "start_timestamp": "2025-01-04T23:06:48.288Z",
         "before": [
           {
             "result": {
-              "duration": 12999400,
+              "duration": 65002400,
               "status": "passed"
             },
             "match": {
@@ -4963,7 +5020,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74894000,
+              "duration": 186000500,
               "status": "passed"
             },
             "line": 18,
@@ -4981,7 +5038,7 @@
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 175001800,
               "status": "passed"
             },
             "line": 19,
@@ -4999,7 +5056,7 @@
           },
           {
             "result": {
-              "duration": 32004700,
+              "duration": 117998400,
               "status": "passed"
             },
             "line": 20,
@@ -5011,7 +5068,7 @@
           },
           {
             "result": {
-              "duration": 4999300,
+              "duration": 15999400,
               "status": "passed"
             },
             "line": 21,
@@ -5029,7 +5086,7 @@
           },
           {
             "result": {
-              "duration": 5000100,
+              "duration": 13997000,
               "status": "passed"
             },
             "line": 22,
@@ -5050,7 +5107,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32999800,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 5,
@@ -5062,7 +5119,7 @@
           },
           {
             "result": {
-              "duration": 59930700,
+              "duration": 256999900,
               "status": "passed"
             },
             "line": 6,
@@ -5075,11 +5132,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:52.958Z",
+        "start_timestamp": "2025-01-04T23:06:49.238Z",
         "before": [
           {
             "result": {
-              "duration": 13081000,
+              "duration": 39002200,
               "status": "passed"
             },
             "match": {
@@ -5096,7 +5153,7 @@
         "steps": [
           {
             "result": {
-              "duration": 86651500,
+              "duration": 108998600,
               "status": "passed"
             },
             "line": 18,
@@ -5114,7 +5171,7 @@
           },
           {
             "result": {
-              "duration": 112020000,
+              "duration": 137001500,
               "status": "passed"
             },
             "line": 19,
@@ -5132,7 +5189,7 @@
           },
           {
             "result": {
-              "duration": 38998900,
+              "duration": 78997000,
               "status": "passed"
             },
             "line": 20,
@@ -5144,7 +5201,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 8998600,
               "status": "passed"
             },
             "line": 21,
@@ -5162,7 +5219,7 @@
           },
           {
             "result": {
-              "duration": 4001000,
+              "duration": 6998800,
               "status": "passed"
             },
             "line": 22,
@@ -5183,7 +5240,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34565200,
+              "duration": 106999100,
               "status": "passed"
             },
             "line": 5,
@@ -5195,7 +5252,7 @@
           },
           {
             "result": {
-              "duration": 62999700,
+              "duration": 232001900,
               "status": "passed"
             },
             "line": 6,
@@ -5208,11 +5265,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:53.312Z",
+        "start_timestamp": "2025-01-04T23:06:50.121Z",
         "before": [
           {
             "result": {
-              "duration": 12013300,
+              "duration": 111999800,
               "status": "passed"
             },
             "match": {
@@ -5229,7 +5286,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66046300,
+              "duration": 140995200,
               "status": "passed"
             },
             "line": 18,
@@ -5247,7 +5304,7 @@
           },
           {
             "result": {
-              "duration": 44000400,
+              "duration": 94998400,
               "status": "passed"
             },
             "line": 19,
@@ -5265,7 +5322,7 @@
           },
           {
             "result": {
-              "duration": 30511800,
+              "duration": 77998800,
               "status": "passed"
             },
             "line": 20,
@@ -5277,7 +5334,7 @@
           },
           {
             "result": {
-              "duration": 5000500,
+              "duration": 9002900,
               "status": "passed"
             },
             "line": 21,
@@ -5295,7 +5352,7 @@
           },
           {
             "result": {
-              "duration": 7001400,
+              "duration": 9997500,
               "status": "passed"
             },
             "line": 22,
@@ -5316,7 +5373,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41735200,
+              "duration": 86983800,
               "status": "passed"
             },
             "line": 5,
@@ -5328,7 +5385,7 @@
           },
           {
             "result": {
-              "duration": 103026900,
+              "duration": 248995600,
               "status": "passed"
             },
             "line": 6,
@@ -5341,11 +5398,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:53.578Z",
+        "start_timestamp": "2025-01-04T23:06:50.920Z",
         "before": [
           {
             "result": {
-              "duration": 12993300,
+              "duration": 44016000,
               "status": "passed"
             },
             "match": {
@@ -5362,7 +5419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76049500,
+              "duration": 118000700,
               "status": "passed"
             },
             "line": 18,
@@ -5380,7 +5437,7 @@
           },
           {
             "result": {
-              "duration": 119165600,
+              "duration": 129999000,
               "status": "passed"
             },
             "line": 19,
@@ -5398,7 +5455,7 @@
           },
           {
             "result": {
-              "duration": 34072100,
+              "duration": 91002800,
               "status": "passed"
             },
             "line": 20,
@@ -5410,7 +5467,7 @@
           },
           {
             "result": {
-              "duration": 5999200,
+              "duration": 15998300,
               "status": "passed"
             },
             "line": 21,
@@ -5428,7 +5485,7 @@
           },
           {
             "result": {
-              "duration": 4999800,
+              "duration": 10999200,
               "status": "passed"
             },
             "line": 22,
@@ -5449,7 +5506,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31992500,
+              "duration": 87000000,
               "status": "passed"
             },
             "line": 5,
@@ -5461,7 +5518,7 @@
           },
           {
             "result": {
-              "duration": 60073500,
+              "duration": 183001000,
               "status": "passed"
             },
             "line": 6,
@@ -5474,11 +5531,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:53.978Z",
+        "start_timestamp": "2025-01-04T23:06:51.679Z",
         "before": [
           {
             "result": {
-              "duration": 10999800,
+              "duration": 30004700,
               "status": "passed"
             },
             "match": {
@@ -5495,7 +5552,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72168800,
+              "duration": 113996200,
               "status": "passed"
             },
             "line": 18,
@@ -5513,7 +5570,7 @@
           },
           {
             "result": {
-              "duration": 47033400,
+              "duration": 83001400,
               "status": "passed"
             },
             "line": 19,
@@ -5531,7 +5588,7 @@
           },
           {
             "result": {
-              "duration": 32000600,
+              "duration": 200997500,
               "status": "passed"
             },
             "line": 20,
@@ -5543,7 +5600,7 @@
           },
           {
             "result": {
-              "duration": 4999400,
+              "duration": 13002000,
               "status": "passed"
             },
             "line": 21,
@@ -5561,7 +5618,7 @@
           },
           {
             "result": {
-              "duration": 5004400,
+              "duration": 6997800,
               "status": "passed"
             },
             "line": 22,
@@ -5582,7 +5639,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29043100,
+              "duration": 128992400,
               "status": "passed"
             },
             "line": 5,
@@ -5594,7 +5651,7 @@
           },
           {
             "result": {
-              "duration": 60518000,
+              "duration": 291979800,
               "status": "passed"
             },
             "line": 6,
@@ -5607,11 +5664,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:54.247Z",
+        "start_timestamp": "2025-01-04T23:06:52.410Z",
         "before": [
           {
             "result": {
-              "duration": 11008100,
+              "duration": 34012500,
               "status": "passed"
             },
             "match": {
@@ -5628,7 +5685,7 @@
         "steps": [
           {
             "result": {
-              "duration": 64507600,
+              "duration": 136001100,
               "status": "passed"
             },
             "line": 18,
@@ -5646,7 +5703,7 @@
           },
           {
             "result": {
-              "duration": 42141000,
+              "duration": 90996800,
               "status": "passed"
             },
             "line": 19,
@@ -5664,7 +5721,7 @@
           },
           {
             "result": {
-              "duration": 30200500,
+              "duration": 82000300,
               "status": "passed"
             },
             "line": 20,
@@ -5676,7 +5733,7 @@
           },
           {
             "result": {
-              "duration": 2999400,
+              "duration": 12000100,
               "status": "passed"
             },
             "line": 21,
@@ -5694,7 +5751,7 @@
           },
           {
             "result": {
-              "duration": 4000500,
+              "duration": 6999800,
               "status": "passed"
             },
             "line": 22,
@@ -5715,7 +5772,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30999900,
+              "duration": 96999300,
               "status": "passed"
             },
             "line": 5,
@@ -5727,7 +5784,7 @@
           },
           {
             "result": {
-              "duration": 59314300,
+              "duration": 173001100,
               "status": "passed"
             },
             "line": 6,
@@ -5740,11 +5797,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-30T23:00:54.494Z",
+        "start_timestamp": "2025-01-04T23:06:53.210Z",
         "before": [
           {
             "result": {
-              "duration": 11000300,
+              "duration": 25004500,
               "status": "passed"
             },
             "match": {
@@ -5761,7 +5818,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65995600,
+              "duration": 120995700,
               "status": "passed"
             },
             "line": 18,
@@ -5779,7 +5836,7 @@
           },
           {
             "result": {
-              "duration": 38001500,
+              "duration": 139996400,
               "status": "passed"
             },
             "line": 19,
@@ -5797,7 +5854,7 @@
           },
           {
             "result": {
-              "duration": 31999300,
+              "duration": 97001700,
               "status": "passed"
             },
             "line": 20,
@@ -5809,7 +5866,7 @@
           },
           {
             "result": {
-              "duration": 5000200,
+              "duration": 15999600,
               "status": "passed"
             },
             "line": 21,
@@ -5827,7 +5884,7 @@
           },
           {
             "result": {
-              "duration": 5000800,
+              "duration": 10008700,
               "status": "passed"
             },
             "line": 22,
