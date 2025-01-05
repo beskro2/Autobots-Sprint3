@@ -47,8 +47,7 @@ public class RegistrationSteps {
 
     @Then("the user should get a registration browser alert saying {string}")
     public void the_user_should_get_a_registration_browser_alert_saying(String string) {
-        //String result = TestMain.registration.alertHandler();
-        //Assert.assertEquals(string, result);
+
         try{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.alertIsPresent());

@@ -1,6 +1,8 @@
 package com.revature.pom;
 
+import org.junit.Assert;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -51,13 +53,6 @@ public class Registration {
         createButton.click();
     }
 
-    public String alertHandler(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.alertIsPresent());
-        Alert alert = driver.switchTo().alert();
-        String alertMessage = alert.getText();
-        alert.accept();
-        return alertMessage;
-    }
+
 
 }

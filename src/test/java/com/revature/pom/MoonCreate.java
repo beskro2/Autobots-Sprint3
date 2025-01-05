@@ -56,11 +56,13 @@ public class MoonCreate {
 
     public void uploadMoonImg(String filetype){
         if (filetype.equals("JPG")){
-            moonImageInput.sendKeys("C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_1.jpg");
+            moonImageInput.sendKeys("C:\\Users\\Saumya Puthenveettil\\Desktop\\Revature\\Training\\project1_saumya\\Planetarium & Setup\\db-setup\\src\\test\\resources\\Celestial-Images");
+            //C:\Users\Saumya Puthenveettil\Desktop\Revature\Training\project1_saumya\Planetarium & Setup\db-setup\src\test\resources\Celestial-Images
         }else if (filetype.equals("PNG")){
-            moonImageInput.sendKeys("C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_2.png");
+            moonImageInput.sendKeys("C:\\Users\\Saumya Puthenveettil\\Desktop\\Revature\\Training\\project1_saumya\\Planetarium & Setup\\db-setup\\src\\test\\resources\\Celestial-Images");
+        //C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\good_filetype_2.png"
         }else if (filetype.equals("GIF")){
-            moonImageInput.sendKeys("C:\\Users\\xien6\\Documents\\GitHub\\Planetarium_Project_PEP\\src\\test\\resources\\test_images\\bad_filetype.gif");
+            moonImageInput.sendKeys("C:\\Users\\Saumya Puthenveettil\\Desktop\\Revature\\Training\\project1_saumya\\Planetarium & Setup\\db-setup\\src\\test\\resources\\Celestial-Images");
         }
     }
 

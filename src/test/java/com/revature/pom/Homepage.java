@@ -27,6 +27,16 @@ public class Homepage {
     @FindBy(id = "passwordInput")
     private WebElement passInput;
 
+    @FindBy(tagName = "celestialTable")
+    private List<WebElement> celestialTable;
+
+    @FindBy(tagName = "tr")
+    private List<WebElement> tableRows;
+
+    @FindBy(tagName="td")
+    private List<WebElement> tableCols;
+
+
     public Homepage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -52,8 +62,14 @@ public class Homepage {
 
     public int getNumberOfCelestialRows(){
         WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.tagName("tr"),5));
-        List<WebElement> tableRows = driver.findElements(By.tagName("tr"));
+      //  wait.until(ExpectedConditions.numberOfElementsToBe(By.tagName("tr"),5));
+
+
         return tableRows.size()-1;
+    }
+
+    public List<WebElement> getCelestialTableCols(){
+        return tableCols;
+
     }
 }
