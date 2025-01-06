@@ -3,7 +3,7 @@ Feature: View User Planets and Moons
 
   ## Happy Path
   Scenario: Login should allow for viewing owned resources
-    Given the user is logged in and on the homepage
+    Given that the user is logged in and is on the home page
     Then they should see their planets and moons
 
   ## Sad Path

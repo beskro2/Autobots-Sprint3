@@ -9,11 +9,13 @@ import org.junit.Assert;
 
 public class DeletePlanetSteps {
 
+    // Background
     @Given("the user deletes a planet")
     public void the_user_deletes_a_planet() {
         TestMain.planetCreate.selectPlanet();
     }
 
+    // Happy Path
     @When("the user inputs a valid planet name")
     public void the_user_inputs_a_valid_name() {
         TestMain.deletePlanet.insertValidPlanetName();
@@ -26,9 +28,10 @@ public class DeletePlanetSteps {
 
     @Then("the data reflected has been refreshed to include the removed planet and corresponding moons")
     public void the_data_reflected_has_been_refreshed_to_include_the_removed_planet_and_corresponding_moons() {
-        Assert.assertEquals(2, TestMain.deletePlanet.getNumberOfCelestialRows());
+        Assert.assertEquals(2, TestMain.universal.getNumberOfCelestialRows(2));
     }
 
+    // Sad Path
     @When("the user inputs a invalid planet name {string}")
     public void the_user_inputs_a_invalid_name(String string) {
         TestMain.deletePlanet.insertInvalidPlanetName(string);

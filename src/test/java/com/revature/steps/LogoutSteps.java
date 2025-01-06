@@ -19,7 +19,7 @@ public class LogoutSteps {
         if (TestMain.driver.getTitle().equals("Home")){
             Assert.assertEquals("Home", TestMain.driver.getTitle());
         }else{
-            TestMain.login.goToLoginPageToLogin();
+            TestMain.universal.goToLoginPage();
             Assert.assertEquals("Planetarium Login", TestMain.driver.getTitle());
             TestMain.login.insertUsername("Batman");
             TestMain.login.insertPassword("Iamthenight1939");

@@ -8,11 +8,13 @@ import org.junit.Assert;
 
 public class MoonCreateSteps {
 
+    // Background
     @Given("the user creates a moon")
     public void the_user_creates_a_moon() {
         TestMain.moonCreate.selectMoon();
     }
 
+    // Operates as both Happy and Sad Path. (Variable Input)
     @When("the user inputs a moon name {string}")
     public void the_user_inputs_a_moon_name(String string) {
         TestMain.moonCreate.insertMoonName(string);
@@ -35,7 +37,7 @@ public class MoonCreateSteps {
 
     @Then("the data reflected has been refreshed to include the newly added moon")
     public void the_data_reflected_has_been_refreshed_to_include_the_newly_added_moon() {
-        Assert.assertEquals(5, TestMain.moonCreate.getNumberOfCelestialRows(5));
+        Assert.assertEquals(5, TestMain.universal.getNumberOfCelestialRows(5));
     }
 
 }

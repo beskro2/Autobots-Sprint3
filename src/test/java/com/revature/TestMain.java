@@ -24,6 +24,7 @@ public class TestMain {
     public static MoonCreate moonCreate;
     public static DeletePlanet deletePlanet;
     public static DeleteMoon deleteMoon;
+    public static Universal universal;
 
     @BeforeClass
     public static void setup(){
@@ -35,6 +36,7 @@ public class TestMain {
         moonCreate = new MoonCreate(driver);
         deletePlanet = new DeletePlanet(driver);
         deleteMoon = new DeleteMoon(driver);
+        universal = new Universal(driver);
     }
 
     @AfterClass

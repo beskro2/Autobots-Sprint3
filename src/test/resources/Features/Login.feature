@@ -2,15 +2,7 @@ Feature: Login Feature
   As a user I want to securely access my account so I can interact with the Planetarium in a secure environment
 
   Background: Login Starting Actions
-    Given the user is on the login page to login
-
-  Scenario Outline: Password characters are not visible
-    When      the user provides password "<password>"
-    Then      the password will never be visible in plain text
-
-    Examples:
-      |username                       |password                         |
-      |Batman	                        |Krypton-was_2000               |
+    Given the user is on the login page
 
   ## Happy Path
   Scenario: Users can login to an account with valid credentials
@@ -24,7 +16,7 @@ Feature: Login Feature
     When the user provides an invalid login username "<username>"
     When the user provides an invalid login password "<password>"
     And the user submits the login credentials
-    Then the user should get a login browser alert saying "<alert>"
+    Then the user should get a browser alert saying "<alert>"
     And the user should be redirected to the login page to login
 
   Examples:

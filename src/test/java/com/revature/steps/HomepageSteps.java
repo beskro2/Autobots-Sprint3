@@ -12,27 +12,23 @@ import java.time.Duration;
 
 public class HomepageSteps {
 
-    @Given("the user is logged in and on the homepage")
-    public void the_user_is_logged_in_and_on_the_homepage() {
-        TestMain.homepage.goToLoginPageForHomepage();
-        TestMain.homepage.knownGoodLogin();
-    }
-
+    // Happy Path
     @Then("they should see their planets and moons")
     public void they_should_see_their_planets_and_moons() {
         WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(3));
         wait.until(ExpectedConditions.titleIs("Home"));
         Assert.assertEquals("Home", TestMain.driver.getTitle());
         Assert.assertEquals("Welcome to the Home Page Batman", TestMain.homepage.getHomePageGreeting());
-        Assert.assertEquals(4, TestMain.homepage.getNumberOfCelestialRows());
+        Assert.assertEquals(4, TestMain.universal.getNumberOfCelestialRows(4));
     }
 
+    // Sad Path
     @Given("the user is not logged in")
     public void the_user_is_not_logged_in() {
         if (TestMain.driver.getTitle().equals("Home")){
             TestMain.login.logoutAttempt();
         }else{
-            TestMain.homepage.goToLoginPageForHomepage();
+            TestMain.universal.goToLoginPage();
         }
         WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.titleIs("Planetarium Login"));
