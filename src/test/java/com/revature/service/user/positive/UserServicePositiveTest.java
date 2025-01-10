@@ -1,7 +1,7 @@
-package com.revature.service.positive;
+package com.revature.service.user.positive;
 
 import com.revature.planetarium.entities.User;
-import com.revature.service.parent.UserServiceTest;
+import com.revature.service.user.parent.UserServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
