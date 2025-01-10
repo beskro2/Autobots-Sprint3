@@ -91,7 +91,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
 
     // Testing Pre-Existing UserID: 1
     @Test
-    public void readPlanetsByOwnerTest(){
+    public void readPlanetsByOwnerPositiveTest(){
         System.out.println("Testing readPlanetsByOwner() with Pre-Existing Owner ID: 1");
         List<Planet> response = planetDao.readPlanetsByOwner(1);
         List<Integer> expected = new ArrayList<>();
