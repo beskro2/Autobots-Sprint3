@@ -52,12 +52,12 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
     // Testing selectPlanet() with Positive Data (ID)
     @Test
     public void selectPlanetPositiveTestID(){
-        System.out.println("Testing Pre-Existing Planet Earth:");
+        System.out.println("Testing Pre-Existing Planet Earth by ID:");
         Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetId())).thenReturn(readPlanetOptional);
         Planet result = planetService.selectPlanet(positivePlanet.getPlanetId());
         Assert.assertEquals(expectedPositivePlanet, result);
         System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Planet Mars");
+        System.out.println("Testing Pre-Existing Planet Mars by ID:");
         Mockito.when(planetDao.readPlanet(positivePlanet2.getPlanetId())).thenReturn(readPlanetOptional2);
         result = planetService.selectPlanet(positivePlanet2.getPlanetId());
         Assert.assertEquals(expectedPositivePlanet2, result);
@@ -67,12 +67,12 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
     // Testing selectPlanet() with Positive Data (Planet Name)
     @Test
     public void selectPlanetPositiveTestName(){
-        System.out.println("Testing Pre-Existing Planet Earth:");
+        System.out.println("Testing Pre-Existing Planet Earth by Name:");
         Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetName())).thenReturn(readPlanetOptional);
         Planet result = planetService.selectPlanet(positivePlanet.getPlanetName());
         Assert.assertEquals(expectedPositivePlanet, result);
         System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Planet Mars");
+        System.out.println("Testing Pre-Existing Planet Mars by Name:");
         Mockito.when(planetDao.readPlanet(positivePlanet2.getPlanetName())).thenReturn(readPlanetOptional2);
         result = planetService.selectPlanet(positivePlanet2.getPlanetName());
         Assert.assertEquals(expectedPositivePlanet2, result);
