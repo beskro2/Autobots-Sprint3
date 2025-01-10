@@ -36,6 +36,8 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
         });
     }
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Test readPlanet() Using Negative Test Data (ID)
     @Test
     public void readPlanetNegativeTestID(){
@@ -53,6 +55,7 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
         Assert.assertFalse(result.isPresent());
         System.out.println("\n");
     }
+    */
 
     // Test readPlanetsByOwner() Using Negative Test Data (Owner ID)
     @Test

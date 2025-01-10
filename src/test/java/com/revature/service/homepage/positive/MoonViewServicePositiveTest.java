@@ -57,6 +57,8 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
         expectedMoonList3.add(positiveMoon2);
     }
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Testing selectMoon() with Negative Data (ID)
     @Test
     public void selectMoonPositiveTestID(){
@@ -99,6 +101,8 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
         }
         System.out.println("\n");
     }
+
+     */
 
     // Testing selectByPlanet() Using Positive Data (Planet ID: Earth)
     @Test

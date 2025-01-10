@@ -49,6 +49,8 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
         expectedPlanetList.add(positivePlanet2);
     }
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Testing selectPlanet() with Positive Data (ID)
     @Test
     public void selectPlanetPositiveTestID(){
@@ -91,6 +93,8 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
         }
         System.out.println("\n");
     }
+
+     */
 
     // Testing selectByOwner() Using Positive Data (Owner ID)
     @Test

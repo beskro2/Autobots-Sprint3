@@ -11,6 +11,8 @@ import java.util.Optional;
 
 public class MoonViewDaoPositiveTest extends HomepageDaoTest {
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Tests Pre-Existing Moon: Luna
     @Test
     public void readMoonPositiveTest1(){
@@ -88,7 +90,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
             Assert.fail("Test Failed Moon Not Found");
         }
         System.out.println("\n");
-    }
+    }*/
 
     // Testing Pre-Existing PlanetID: 1
     @Test

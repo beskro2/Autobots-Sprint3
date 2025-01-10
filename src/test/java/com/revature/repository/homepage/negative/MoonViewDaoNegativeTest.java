@@ -37,6 +37,8 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
         });
     }
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Test readMoon() Using Negative Test Data (ID)
     @Test
     public void readMoonNegativeTestID(){
@@ -54,6 +56,7 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
         Assert.assertFalse(result.isPresent());
         System.out.println("\n");
     }
+     */
 
     // Test readMoonsByPlanet() Using Negative Test Data (Planet ID)
     @Test

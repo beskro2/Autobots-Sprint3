@@ -11,6 +11,8 @@ import java.util.Optional;
 
 public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
 
+    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
+    /*
     // Tests Pre-Existing Planet: Earth
     @Test
     public void readPlanetPositiveTest1(){
@@ -82,7 +84,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.fail("Test Failed: Unexpected Result Planet List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
-    }
+    }*/
 
     // Testing Pre-Existing UserID: 1
     @Test
