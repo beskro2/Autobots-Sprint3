@@ -55,8 +55,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals(2, response.get().getOwnerId());
             System.out.println("Test Passed | Found ID: " + response.get().getMoonId() + " | Found Moon Name: " + response.get().getMoonName() + " | With the Owner ID of: " + response.get().getOwnerId());
         }else{
-            System.out.println("Test Failed Moon Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Moon Not Found");
         }
         // Test by Name
         response = moonDao.readMoon("Titan");
@@ -67,8 +66,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals(2, response.get().getOwnerId());
             System.out.println("Test Passed | Found ID: " + response.get().getMoonId() + " | Found Moon Name: " + response.get().getMoonName() + " | With the Owner ID of: " + response.get().getOwnerId());
         }else{
-            System.out.println("Test Failed Moon Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Moon Not Found");
         }
         System.out.println("\n");
     }
@@ -87,8 +85,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
                 System.out.println("Test Passed | Found ID: " + response.get(index).getMoonId() + " | Found Moon Name: " + response.get(index).getMoonName() + " | With the Owner ID of: " + response.get(index).getOwnerId());
             }
         }else{
-            System.out.println("Test Failed: Unexpected Result Moon List Is Empty");
-            Assert.fail();
+            Assert.fail("Test Failed Moon Not Found");
         }
         System.out.println("\n");
     }
@@ -106,8 +103,8 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
                 System.out.println("Test Passed | Found ID: " + response.get(index).getMoonId() + " | Found Moon Name: " + response.get(index).getMoonName() + " | With the Owner ID of: " + response.get(index).getOwnerId());
             }
         }else{
-            System.out.println("Test Failed: Unexpected Result Moon List Is Empty");
-            Assert.fail();
+            System.out.println();
+            Assert.fail("Test Failed: Unexpected Result Moon List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
     }
@@ -125,8 +122,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
                 System.out.println("Test Passed | Found ID: " + response.get(index).getMoonId() + " | Found Moon Name: " + response.get(index).getMoonName() + " | With the Owner ID of: " + response.get(index).getOwnerId());
             }
         }else{
-            System.out.println("Test Failed: Unexpected Result Moon List Is Empty");
-            Assert.fail();
+            Assert.fail("Test Failed: Unexpected Result Moon List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
     }

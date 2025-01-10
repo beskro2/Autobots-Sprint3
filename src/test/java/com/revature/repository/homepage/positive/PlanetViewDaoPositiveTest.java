@@ -23,8 +23,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals("Earth", response.get().getPlanetName());
             System.out.println("Test Passed | Found ID: " + response.get().getPlanetId() + " | Found Planet Name: " + response.get().getPlanetName());
         }else{
-            System.out.println("Test Failed Planet Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Planet Not Found");
         }
         // Test by Name
         response = planetDao.readPlanet("Earth");
@@ -34,8 +33,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals("Earth", response.get().getPlanetName());
             System.out.println("Test Passed | Found ID: " + response.get().getPlanetId() + " | Found Planet Name: " + response.get().getPlanetName());
         }else{
-            System.out.println("Test Failed Planet Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Planet Not Found");
         }
         System.out.println("\n");
     }
@@ -52,8 +50,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals("Mars", response.get().getPlanetName());
             System.out.println("Test Passed | Found ID: " + response.get().getPlanetId() + " | Found Planet Name: " + response.get().getPlanetName());
         }else{
-            System.out.println("Test Failed Planet Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Planet Not Found");
         }
         // Test by Name
         response = planetDao.readPlanet("Mars");
@@ -63,8 +60,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.assertEquals("Mars", response.get().getPlanetName());
             System.out.println("Test Passed | Found ID: " + response.get().getPlanetId() + " | Found Planet Name: " + response.get().getPlanetName());
         }else{
-            System.out.println("Test Failed Planet Not Found");
-            Assert.fail();
+            Assert.fail("Test Failed Planet Not Found");
         }
         System.out.println("\n");
     }
@@ -83,8 +79,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
                 System.out.println("Test Passed | Found ID: " + response.get(index).getPlanetId() + " | Found Planet Name: " + response.get(index).getPlanetName());
             }
         }else{
-            System.out.println("Test Failed: Unexpected Result Planet List Is Empty");
-            Assert.fail();
+            Assert.fail("Test Failed: Unexpected Result Planet List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
     }
@@ -103,8 +98,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
                 System.out.println("Test Passed | Found ID: " + response.get(index).getPlanetId() + " | Found Planet Name: " + response.get(index).getPlanetName());
             }
         }else{
-            System.out.println("Test Failed: Unexpected Result Planet List Is Empty");
-            Assert.fail();
+            Assert.fail("Test Failed: Unexpected Result Planet List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
     }
