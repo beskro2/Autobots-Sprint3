@@ -1,8 +1,8 @@
-package com.revature.service.negative;
+package com.revature.service.user.negative;
 
 import com.revature.planetarium.entities.User;
 import com.revature.planetarium.exceptions.UserFail;
-import com.revature.service.parent.UserServiceTest;
+import com.revature.service.user.parent.UserServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
