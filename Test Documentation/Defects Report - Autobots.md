@@ -21,3 +21,7 @@ Unexpected alert issues
 Image adding issues
 12. .Png can’t be added
 
+Repo/Service Testing for planet creation
+1. In Planet class, no Planet consructor while User and Moon have one
+
+
