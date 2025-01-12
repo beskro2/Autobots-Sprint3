@@ -21,7 +21,8 @@ Unexpected alert issues
 Image adding issues
 12. .Png can’t be added
 
-Repo/Service Testing for planet creation - Julio
+Repo/Service Testing for planet creation and deletion - Julio
 1. In Planet class, no Planet consructor while User and Moon have one
+2. In PlanetServiceImp, deletePlanet method seems to be only checking if there is an instance of a String variable or Integer variable, no checks to see if planet name is in database or not so it will always try to delete planet whether or not its in the database.
 
 
