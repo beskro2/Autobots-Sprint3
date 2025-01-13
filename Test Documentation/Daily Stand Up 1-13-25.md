@@ -11,3 +11,5 @@ Today
 Saumya - continuing to create tests for service/repo assignments in JIRA
 
 Ben- work on service layer testing for create and delete moon functions
+
+Julio - Worked on repository layer testing for create planet functionality
