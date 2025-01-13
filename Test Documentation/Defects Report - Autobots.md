@@ -24,8 +24,9 @@ Image adding issues
 Repo/Service Testing for planet creation and deletion - Julio
 1. In Planet class, no Planet consructor while User and Moon have one
 2. In PlanetDaoImp, deletePlanet does not throw any exception when passing in sad path data
-3. In PlanetServiceImp, deletePlanet method seems to be only checking if there is an instance of a String variable or Integer variable, no checks to see if planet name is in database or not so it will always try to delete a planet whether or not its in the database.
-4. In PlanetServiceImp, deletePlanet is returning a string instead of a boolean.
-5. In PlanetServiceImp, deletePlanet has wrong exception message "Planet delete failed, please try again", should be "Invalid planet name"
+3. In PlanetDaoImp, createPlanet method does not accept "90Aries" as a username according to planet requirements this should be a valid name
+4. In PlanetServiceImp, deletePlanet method seems to be only checking if there is an instance of a String variable or Integer variable, no checks to see if planet name is in database or not so it will always try to delete a planet whether or not its in the database.
+5. In PlanetServiceImp, deletePlanet is returning a string instead of a boolean.
+6. In PlanetServiceImp, deletePlanet has wrong exception message "Planet delete failed, please try again", should be "Invalid planet name"
 
 
