@@ -1,0 +1,30 @@
+package com.revature;
+
+import com.revature.repository.createPlanet.suite.CreatePlanetDaoTestSuite;
+import com.revature.repository.deletePlanet.suite.DeletePlanetDaoTestSuite;
+import com.revature.repository.homepage.suite.HomepageDAOTestSuite;
+import com.revature.repository.user.suite.UserDaoTestSuite;
+import com.revature.service.createPlanet.suite.CreatePlanetServiceTestSuite;
+import com.revature.service.deletePlanet.suite.DeletePlanetServiceTestSuite;
+import com.revature.service.homepage.suite.HomepageServiceTestSuite;
+import com.revature.service.user.suite.UserServiceTestSuite;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+        //repository suites
+        CreatePlanetDaoTestSuite.class,
+        DeletePlanetDaoTestSuite.class,
+        HomepageDAOTestSuite.class,
+        UserDaoTestSuite.class,
+
+        //service suites
+        CreatePlanetServiceTestSuite.class,
+        DeletePlanetServiceTestSuite.class,
+        HomepageServiceTestSuite.class,
+        UserServiceTestSuite.class
+
+})
+public class PlanetariumTestSuite {
+}
