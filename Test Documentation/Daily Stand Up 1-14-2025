@@ -1,7 +1,10 @@
 # Yesterday
-Ben- worded on service testing for create and delete planet
+Ben- worked on service testing for create and delete planet
+Saumya - worked on debugging issues in program for service/repo layer tests
 
 
 
 # Today
 Ben - finnish service testing for create and delete planet and start api testing
+Saumya - input initial test summary into JIRA for 4 test cases for user creation/login/registration tasks, working on refining
+test cases for service/repo layer and adding more if time permits
