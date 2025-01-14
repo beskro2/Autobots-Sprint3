@@ -28,5 +28,6 @@ Repo/Service Testing for planet creation and deletion - Julio
 4. In PlanetServiceImp, deletePlanet method seems to be only checking if there is an instance of a String variable or Integer variable, no checks to see if planet name is in database or not so it will always try to delete a planet whether or not its in the database.
 5. In PlanetServiceImp, deletePlanet is returning a string instead of a boolean.
 6. In PlanetServiceImp, deletePlanet has wrong exception message "Planet delete failed, please try again", should be "Invalid planet name"
+7. When sending a post request to http://localhost:8080/planetarium/planet and passing in planet name of "90Aries" inside the json body the request will fail, according to planet requirements this should be a valid name
 
 
