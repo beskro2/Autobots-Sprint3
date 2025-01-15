@@ -4,6 +4,7 @@ import com.revature.planetarium.entities.Planet;
 import com.revature.service.homepage.parent.HomepageServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -49,9 +50,8 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
         expectedPlanetList.add(positivePlanet2);
     }
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Testing selectPlanet() with Positive Data (ID)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectPlanetPositiveTestID(){
         System.out.println("Testing Pre-Existing Planet Earth by ID:");
@@ -67,6 +67,7 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
     }
 
     // Testing selectPlanet() with Positive Data (Planet Name)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectPlanetPositiveTestName(){
         System.out.println("Testing Pre-Existing Planet Earth by Name:");
@@ -82,6 +83,7 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
     }
 
     // Testing selectAllPlanets()
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectAllPlanetsTest(){
         Mockito.when(planetDao.readAllPlanets()).thenReturn(expectedPlanetList);
@@ -93,8 +95,6 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
         }
         System.out.println("\n");
     }
-
-     */
 
     // Testing selectByOwner() Using Positive Data (Owner ID)
     @Test
