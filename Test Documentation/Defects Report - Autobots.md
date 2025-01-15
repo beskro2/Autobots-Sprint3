@@ -2,8 +2,8 @@
 
 
 User permissions
-4. When logged into the homepage as user1, I can see the planets/moons added by all users, not just mine.  This violates security requirement 2.
-5. When logged into the homepage as user2, I can only see celestial objects added by user 2.  User1 and User2 have different privileges not stated in the software requirements.
+4. When logged into the homepage as user1, I can see the moons added by all users, not just mine.  This violates security requirement 2.
+5. When logged into the homepage as user2, I can see and delete moons added by user 1.  
 10. When signed in as user1 you can successfully delete a moon created by user 2.
 
 Moon/Planet name validation
