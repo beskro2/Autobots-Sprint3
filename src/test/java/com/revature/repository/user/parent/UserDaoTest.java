@@ -1,4 +1,4 @@
-package com.revature.repository.user.parent;
+package com.revature.repository.parent;
 
 import com.revature.planetarium.repository.user.UserDao;
 import com.revature.planetarium.repository.user.UserDaoImp;
@@ -12,7 +12,7 @@ public class UserDaoTest {
     @Before
     public void setup(){
         userDao = new UserDaoImp();
-        Setup.resetTestDatabase();
+       Setup.resetTestDatabase();
     }
 
 }
