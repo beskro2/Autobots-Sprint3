@@ -1,7 +1,7 @@
-package com.revature.repository.user.negative;
+package com.revature.repository.negative;
 
 import com.revature.planetarium.entities.User;
-import com.revature.repository.user.parent.UserDaoTest;
+import com.revature.repository.parent.UserDaoTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,7 +18,7 @@ public class UserDaoFindUserByUsernameNegativeTest extends UserDaoTest {
     }
 
     @Test
-    public void findUserByUsernameNegativeTest(){
+    public void daoFindUserByUsernameNegativeTest(){
         Optional<User> result = userDao.findUserByUsername(negativeUsername);
         Assert.assertFalse(result.isPresent());
     }
