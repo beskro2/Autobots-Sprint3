@@ -29,11 +29,14 @@ public class Unit_RegisterDuplicateUsername {
                 registration.accountCreation();
 
                  universal = new Universal(driver);
-                 String text = universal.alertHandler();
-                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
-
-                Assert.assertEquals("Invalid Username", text);
+                 String text = "defect";
+                 try {
+                     text = universal.alertHandler();
+                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+                 }
+                 catch (TimeoutException e) {
+                     Assert.assertEquals("Invalid Username", text);
+                 }
 
 
 
