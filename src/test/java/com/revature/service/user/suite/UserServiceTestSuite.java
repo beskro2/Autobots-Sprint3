@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
         UserServicePositiveTest.class,
         UserServiceCreateUserNegativeTest.class,
        UserServiceAuthenticateNegativeTest.class,
-      //  Unit_RegisterDuplicateUsername.class
+       Unit_RegisterDuplicateUsername.class
 
 })
 public class UserServiceTestSuite {
