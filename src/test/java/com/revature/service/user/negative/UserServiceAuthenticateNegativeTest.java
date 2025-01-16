@@ -1,8 +1,8 @@
-package com.revature.service.user.negative;
+package com.revature.service.negative;
 
 import com.revature.planetarium.entities.User;
 import com.revature.planetarium.exceptions.UserFail;
-import com.revature.service.user.parent.UserServiceTest;
+import com.revature.service.parent.UserServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -52,13 +52,14 @@ public class UserServiceAuthenticateNegativeTest extends UserServiceTest {
     }
 
     @Test
-    public void authenticateNegativeTest(){
+    public void serviceAuthenticateNegativeTest(){
         try{
             Mockito.when(userDao.findUserByUsername("Batman")).thenReturn(optionalWithUser);
             Mockito.when(userDao.findUserByUsername(Mockito.anyString())).thenReturn(Optional.empty());
             userService.authenticate(negativeUser);
             Assert.fail("Expected UserFail to be thrown, but it was not");
         } catch (UserFail e){
+          //  Assert.assertEquals(expectedExceptionMessage, e.getMessage());
             Assert.assertEquals(expectedExceptionMessage, e.getMessage());
         }
     }
