@@ -21,7 +21,7 @@ import org.junit.runners.Suite;
         CreatePlanetDaoTestSuite.class,
         DeletePlanetDaoTestSuite.class,
         HomepageDAOTestSuite.class,
-        UserServiceTestSuite.class,
+        com.revature.repository.suite.UserDaoTestSuite.class,
         CreateMoonDaoTestSuite.class,
         deleteMoonDaoTestSuite.class,
 
@@ -29,7 +29,7 @@ import org.junit.runners.Suite;
         CreatePlanetServiceTestSuite.class,
         DeletePlanetServiceTestSuite.class,
         HomepageServiceTestSuite.class,
-        com.revature.repository.suite.UserDaoTestSuite.class,
+        UserServiceTestSuite.class,
         createMoonServiceTestSuite.class,
         deleteMoonDaoTestSuite.class
 
