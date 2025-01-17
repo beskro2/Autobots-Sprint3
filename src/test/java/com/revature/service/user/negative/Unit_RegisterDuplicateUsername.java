@@ -1,4 +1,4 @@
-package com.revature.service.negative;
+package com.revature.service.user.negative;
 import com.revature.pom.*;
 
 import org.junit.Assert;
@@ -9,6 +9,7 @@ import static com.revature.TestMain.driver;
 import static com.revature.TestMain.*;
 
 
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
