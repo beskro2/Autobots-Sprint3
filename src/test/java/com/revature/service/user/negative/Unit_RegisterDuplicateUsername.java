@@ -9,6 +9,7 @@ import static com.revature.TestMain.driver;
 import static com.revature.TestMain.*;
 
 
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
