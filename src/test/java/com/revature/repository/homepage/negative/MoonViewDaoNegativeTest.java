@@ -60,7 +60,7 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
 
     // Test readMoonsByPlanet() Using Negative Test Data (Planet ID)
     @Test
-    public void readPlanetsByOwnerNegative(){
+    public void readMoonsByOwnerNegative(){
         System.out.println("Testing readPlanetsByOwner() with Owner ID: " + planetID);
         List<Moon> response = moonDao.readMoonsByPlanet(planetID);
         Assert.assertTrue(response.isEmpty());

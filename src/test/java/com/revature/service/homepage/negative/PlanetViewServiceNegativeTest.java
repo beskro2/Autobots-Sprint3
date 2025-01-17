@@ -49,7 +49,7 @@ public class PlanetViewServiceNegativeTest extends HomepageServiceTest {
 
     // Testing selectByOwner() Using Positive Data (Owner ID)
     @Test
-    public void selectByOwnerTest(){
+    public void selectByOwnerTestOwnerID(){
         System.out.println("Testing Owner ID: " + negativePlanet.getOwnerId());
         Mockito.when(planetDao.readPlanetsByOwner(Mockito.anyInt())).thenReturn(expectedEmpty);
         List<Planet> result = planetService.selectByOwner(negativePlanet.getOwnerId());
