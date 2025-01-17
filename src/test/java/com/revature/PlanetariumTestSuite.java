@@ -11,6 +11,7 @@ import com.revature.service.createPlanet.suite.CreatePlanetServiceTestSuite;
 import com.revature.service.deletePlanet.suite.DeletePlanetServiceTestSuite;
 import com.revature.service.homepage.suite.HomepageServiceTestSuite;
 
+import com.revature.service.user.suite.UserServiceTestSuite;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -20,7 +21,7 @@ import org.junit.runners.Suite;
         CreatePlanetDaoTestSuite.class,
         DeletePlanetDaoTestSuite.class,
         HomepageDAOTestSuite.class,
-        com.revature.service.suite.UserServiceTestSuite.class,
+        UserServiceTestSuite.class,
         CreateMoonDaoTestSuite.class,
         deleteMoonDaoTestSuite.class,
 

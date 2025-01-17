@@ -1,4 +1,4 @@
-package com.revature.service.negative;
+package com.revature.service.user.negative;
 import com.revature.pom.*;
 
 import org.junit.Assert;
