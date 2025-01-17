@@ -22,6 +22,7 @@ public class MoonServiceImp<T> implements MoonService<T> {
         }
         Optional<Moon> existingMoon = moonDao.readMoon(moon.getMoonName());
         if (existingMoon.isPresent()) {
+
             throw new MoonFail("unique name fail");
         }
         Optional<Moon> newMoon = moonDao.createMoon(moon);
