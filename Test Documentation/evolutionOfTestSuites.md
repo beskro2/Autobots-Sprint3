@@ -1,4 +1,4 @@
-# "describe how your test suite evolved moving from a solo to group project"
+# "Describe how your test suite evolved moving from a solo to group project"
 
 One of the ways our test suite evolved when moving from a solo project to a group project was that our suite ended up expanding more than we thought It would. If your working alone on
 a project the amount test data you can come up with can be very limiting, however when working in a group we quickly saw how fast
