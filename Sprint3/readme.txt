@@ -1,1 +1,1 @@
--updated planetarium application with defects fixed and updated condensed testing suite
+-updated planetarium application with defects fixed and stretch goals and updated condensed testing suite
