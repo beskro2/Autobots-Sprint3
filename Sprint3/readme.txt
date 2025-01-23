@@ -1,1 +1,2 @@
--updated planetarium application with defects fixed and stretch goals and updated condensed testing suite
+-Updated planetarium application with defects fixed and stretch goals 
+-Updated condensed testing suite with the top most essential tests
