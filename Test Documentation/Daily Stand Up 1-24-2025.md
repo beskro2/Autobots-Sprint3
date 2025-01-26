@@ -1,7 +1,10 @@
 #
 Yesterday
+
 Ben-
+
 Julio-
+
 Saumya - Worked on defects, brainstormed stretch goals, worked on Jenkins maven testing environment
 
 
