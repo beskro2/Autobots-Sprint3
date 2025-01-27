@@ -89,26 +89,26 @@ public class MoonServiceCreateMoonPositiveTest extends MoonServiceTest {
     @Test
     public void CreateMoonPositiveTest(){
         Mockito.when(moonDao.createMoon(positiveMoon)).thenReturn(mockOptional);
-        Moon result = moonService.createMoon(positiveMoon);
+        Boolean result = moonService.createMoon(positiveMoon);
         Assert.assertEquals(true,result);
     }
 
     @Test
     public void CreateMoonPositiveTest2(){
         Mockito.when(moonDao.createMoon(positiveMoon2)).thenReturn(mockOptional2);
-        Moon result = moonService.createMoon(positiveMoon2);
+        Boolean result = moonService.createMoon(positiveMoon2);
         Assert.assertEquals(true,result);
     }
     @Test
     public void CreateMoonPositiveTest3(){
         Mockito.when(moonDao.createMoon(positiveMoon3)).thenReturn(mockOptional3);
-        Moon result = moonService.createMoon(positiveMoon3);
+         Boolean result = moonService.createMoon(positiveMoon3);
         Assert.assertEquals(true,result);
     }
     @Test
     public void CreateMoonPositiveTest4(){
         Mockito.when(moonDao.createMoon(positiveMoon4)).thenReturn(mockOptional4);
-        Moon result = moonService.createMoon(positiveMoon4);
+        Boolean result = moonService.createMoon(positiveMoon4);
         Assert.assertEquals(true,result);
     }
 
