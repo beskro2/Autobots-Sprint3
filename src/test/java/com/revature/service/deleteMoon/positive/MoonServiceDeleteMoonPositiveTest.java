@@ -20,7 +20,7 @@ public void positiveDeleteMoonSetUp(){
     public void DeleteMoon(){
 
     Mockito.when(moonDao.deleteMoon(moonName)).thenReturn(true);
-    String result = moonService.deleteMoon(moonName);
+    boolean result = moonService.deleteMoon(moonName);
     Assert.assertEquals(true,result);
 }
 
