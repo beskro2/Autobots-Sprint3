@@ -1,0 +1,15 @@
+# Yesterday
+Ben- worked on service testing for create and delete planet
+Saumya - worked on debugging issues in program for service/repo layer tests
+Julio - worked on planet creation testing for service and repo
+Nick - Started working on API Testing.
+
+
+
+# Today
+Ben - finnish service testing for create and delete planet and start api testing
+Saumya - input initial test summary into JIRA for 4 test cases for user creation/login/registration tasks, working on refining
+test cases for service/repo layer and adding more if time permits
+Julio - Finished up the service/repo layer of testing for planet createion and deletion and finished up the api testing for planet creation
+and deletion.  Updated the defects report with the defects I found during testing.
+Nick - Completed API Testing.

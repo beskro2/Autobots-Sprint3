@@ -4,6 +4,7 @@ import com.revature.planetarium.entities.Moon;
 import com.revature.service.homepage.parent.HomepageServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -57,9 +58,8 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
         expectedMoonList3.add(positiveMoon2);
     }
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Testing selectMoon() with Negative Data (ID)
+    @Ignore("NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectMoonPositiveTestID(){
         System.out.println("Testing Pre-Existing Moon Luna by ID:");
@@ -75,6 +75,7 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
     }
 
     // Testing selectMoon() with Negative Data (Planet Name)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectMoonPositiveTestName(){
         System.out.println("Testing Pre-Existing Moon Luna by Name:");
@@ -90,6 +91,7 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
     }
 
     // Testing selectAllMoons()
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void selectAllMoonsTest(){
         Mockito.when(moonDao.readAllMoons()).thenReturn(expectedMoonList1);
@@ -101,8 +103,6 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
         }
         System.out.println("\n");
     }
-
-     */
 
     // Testing selectByPlanet() Using Positive Data (Planet ID: Earth)
     @Test

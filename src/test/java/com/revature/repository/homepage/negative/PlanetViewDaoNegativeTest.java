@@ -3,6 +3,7 @@ package com.revature.repository.homepage.negative;
 import com.revature.planetarium.entities.Planet;
 import com.revature.repository.homepage.parent.HomepageDaoTest;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -36,9 +37,8 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
         });
     }
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Test readPlanet() Using Negative Test Data (ID)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readPlanetNegativeTestID(){
         System.out.println("Testing readMoon() using ID: " + planetId);
@@ -48,6 +48,7 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
     }
 
     // Test readPlanet() Using Negative Test Data (Planet Name)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readPlanetNegativeTestName(){
         System.out.println("Testing readMoon() using Planet Name: " + planetName);
@@ -55,7 +56,6 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
         Assert.assertFalse(result.isPresent());
         System.out.println("\n");
     }
-    */
 
     // Test readPlanetsByOwner() Using Negative Test Data (Owner ID)
     @Test

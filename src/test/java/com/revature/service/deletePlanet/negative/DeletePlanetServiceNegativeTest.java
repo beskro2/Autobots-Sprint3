@@ -34,6 +34,7 @@ public class DeletePlanetServiceNegativeTest extends DeletePlanetServiceTest {
 
     @Test
     public void deletePlanetServiceNegativeTest() {
+        System.out.println("this is the planet name: " + negativePlanetName);
         Mockito.when(planetDao.deletePlanet(negativePlanetName)).thenReturn(false);
         PlanetFail exception = Assert.assertThrows(PlanetFail.class, ()->{planetService.deletePlanet(negativePlanetName);});
         Assert.assertEquals(exceptionMessage, exception.getMessage());

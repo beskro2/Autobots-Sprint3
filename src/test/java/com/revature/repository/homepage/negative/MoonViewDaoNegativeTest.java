@@ -3,6 +3,7 @@ package com.revature.repository.homepage.negative;
 import com.revature.planetarium.entities.Moon;
 import com.revature.repository.homepage.parent.HomepageDaoTest;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -37,9 +38,8 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
         });
     }
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Test readMoon() Using Negative Test Data (ID)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readMoonNegativeTestID(){
         System.out.println("Testing readMoon() using ID: " + moonID);
@@ -49,6 +49,7 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
     }
 
     // Test readMoon() Using Negative Test Data (Moon Name)
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readMoonNegativeTestName(){
         System.out.println("Testing readMoon() using Planet Name: " + moonName);
@@ -56,11 +57,10 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
         Assert.assertFalse(result.isPresent());
         System.out.println("\n");
     }
-     */
 
     // Test readMoonsByPlanet() Using Negative Test Data (Planet ID)
     @Test
-    public void readPlanetsByOwnerNegative(){
+    public void readMoonsByOwnerNegative(){
         System.out.println("Testing readPlanetsByOwner() with Owner ID: " + planetID);
         List<Moon> response = moonDao.readMoonsByPlanet(planetID);
         Assert.assertTrue(response.isEmpty());

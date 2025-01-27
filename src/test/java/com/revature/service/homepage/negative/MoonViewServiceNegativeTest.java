@@ -52,7 +52,7 @@ public class MoonViewServiceNegativeTest extends HomepageServiceTest {
 
     // Testing selectByPlanet() Using Positive Data (Planet ID)
     @Test
-    public void selectByOwnerTest(){
+    public void selectByOwnerTestPlanetID(){
         System.out.println("Testing Planet ID: " + negativeMoon.getOwnerId());
         Mockito.when(moonDao.readMoonsByPlanet(Mockito.anyInt())).thenReturn(expectedEmpty);
         List<Moon> result = planetService.selectByOwner(negativeMoon.getOwnerId());

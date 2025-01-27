@@ -1,7 +1,7 @@
-package com.revature.service.user.positive;
+package com.revature.service.positive;
 
 import com.revature.planetarium.entities.User;
-import com.revature.service.user.parent.UserServiceTest;
+import com.revature.service.parent.UserServiceTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -33,21 +33,26 @@ public class UserServicePositiveTest extends UserServiceTest {
         expectedAuthenticateResult = new User();
         expectedAuthenticateResult.setId(1);
         expectedAuthenticateResult.setUsername("Batman");
+        expectedAuthenticateResult.setPassword("Iamthenight1939");
     }
 
 
     @Test
-    public void createUserPositiveTest(){
-        Mockito.when(userDao.createUser(positiveUser)).thenReturn(mockOptional);
-        String result = userService.createUser(positiveUser);
-        Assert.assertEquals(createUserSuccessMessage, result);
+    public void serviceCreateUserPositiveTest() {
+        String result = null;
+
+            Mockito.when(userDao.createUser(positiveUser)).thenReturn(mockOptional);
+            result = userService.createUser(positiveUser);
+            Assert.assertEquals(createUserSuccessMessage, result);
+
     }
 
     @Test
-    public void authenticatePositiveTest(){
+    public void serviceAuthenticatePositiveTest(){
         Mockito.when(userDao.findUserByUsername(positiveAuthenticateCredentials.getUsername())).thenReturn(authenticateUserOptional);
         User result = userService.authenticate(positiveAuthenticateCredentials);
         Assert.assertEquals(expectedAuthenticateResult, result);
+       // Assert.assertEquals(expectedAuthenticateResult,expectedAuthenticateResult);
     }
 
 }

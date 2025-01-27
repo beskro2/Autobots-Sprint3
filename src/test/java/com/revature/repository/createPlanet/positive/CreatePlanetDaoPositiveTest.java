@@ -35,6 +35,7 @@ public class CreatePlanetDaoPositiveTest extends CreatePlanetDaoTest {
     public static Collection<Object> input(){
         try {
             return Arrays.asList(new Object[][]{
+                    {"Little Earth",1, ""},
                     {"Treader  -2_2", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
                     {"90Aries",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
                     {"Molly_22", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_2.png"))}

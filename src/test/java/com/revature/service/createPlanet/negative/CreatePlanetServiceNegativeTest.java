@@ -48,7 +48,8 @@ public class CreatePlanetServiceNegativeTest extends CreatePlanetServiceTest {
                     {"", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
                     {"Molly tess tobi toff garthog lord of unholy darkness", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
                     {"Molly $@#", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")) , "Invalid file type"}
+                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")) , "Invalid file type"},
+                    {"Earth",1,"","Invalid planet name"}
             });
         } catch (IOException e) {
             e.printStackTrace();

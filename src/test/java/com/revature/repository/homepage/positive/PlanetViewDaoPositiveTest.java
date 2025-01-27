@@ -3,6 +3,7 @@ package com.revature.repository.homepage.positive;
 import com.revature.planetarium.entities.Planet;
 import com.revature.repository.homepage.parent.HomepageDaoTest;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,9 +12,8 @@ import java.util.Optional;
 
 public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Tests Pre-Existing Planet: Earth
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readPlanetPositiveTest1(){
         System.out.println("Testing readPlanet() with Pre-Existing Planet: Earth");
@@ -41,6 +41,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
     }
 
     // Tests Pre-Existing Planet: Mars
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readPlanetPositiveTest2(){
         System.out.println("Testing readPlanet() with Pre-Existing Planet: Mars");
@@ -68,6 +69,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
     }
 
     // Testing Read All Planets Method With Expected Pre-Existing Planets
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readAllPlanetsTest(){
         System.out.println("Testing readAllPlanets()");
@@ -84,7 +86,7 @@ public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
             Assert.fail("Test Failed: Unexpected Result Planet List Is Empty or Size Not (Equal To) Expected");
         }
         System.out.println("\n");
-    }*/
+    }
 
     // Testing Pre-Existing UserID: 1
     @Test

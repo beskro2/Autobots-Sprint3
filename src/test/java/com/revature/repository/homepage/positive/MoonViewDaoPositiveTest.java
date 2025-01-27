@@ -3,6 +3,7 @@ package com.revature.repository.homepage.positive;
 import com.revature.planetarium.entities.Moon;
 import com.revature.repository.homepage.parent.HomepageDaoTest;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,9 +12,8 @@ import java.util.Optional;
 
 public class MoonViewDaoPositiveTest extends HomepageDaoTest {
 
-    // ALTHOUGH FUNCTIONAL, THESE TESTS ARE NOT NEEDED TO MEET MVP REQUIREMENTS
-    /*
     // Tests Pre-Existing Moon: Luna
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readMoonPositiveTest1(){
         System.out.println("Testing readMoon() with Pre-Existing Moon: Luna");
@@ -45,6 +45,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
     }
 
     // Tests Pre-Existing Moon: Titan
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readMoonPositiveTest2(){
         System.out.println("Testing readMoon() with Pre-Existing Moon: Titan");
@@ -74,6 +75,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
     }
 
     // Testing Read All Moons Method With Expected Pre-Existing Moons
+    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
     @Test
     public void readAllMoonsTest(){
         System.out.println("Testing readAllMoons()");
@@ -90,7 +92,7 @@ public class MoonViewDaoPositiveTest extends HomepageDaoTest {
             Assert.fail("Test Failed Moon Not Found");
         }
         System.out.println("\n");
-    }*/
+    }
 
     // Testing Pre-Existing PlanetID: 1
     @Test

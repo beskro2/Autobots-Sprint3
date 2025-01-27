@@ -1,8 +1,8 @@
-package com.revature.repository.user.negative;
+package com.revature.repository.negative;
 
 import com.revature.planetarium.entities.User;
 import com.revature.planetarium.exceptions.UserFail;
-import com.revature.repository.user.parent.UserDaoTest;
+import com.revature.repository.parent.UserDaoTest;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +11,8 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import  static org.junit.runners.Parameterized.*;
+import static org.junit.runners.Parameterized.Parameter;
+import static org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
 public class UserDaoCreateUserNegativeTest extends UserDaoTest {
@@ -35,6 +36,7 @@ public class UserDaoCreateUserNegativeTest extends UserDaoTest {
      */
     @Parameters
     public static Collection<Object> inputs(){
+
         return Arrays.asList(new Object[][]{
                 {0,"Batman","Krypton-was_2000","Invalid username"},
                 {0,"Bane","Krypton-was_2000","Invalid username"},
@@ -58,7 +60,7 @@ public class UserDaoCreateUserNegativeTest extends UserDaoTest {
         of test data in the inputs method above
      */
     @Test
-    public void createUserNegativeTest(){
+    public void daoCreateUserNegativeTest(){
         User testUser = new User(userId, username, password);
         UserFail exception = Assert.assertThrows(UserFail.class, ()-> {userDao.createUser(testUser);});
         Assert.assertEquals(exceptionMessage, exception.getMessage());
