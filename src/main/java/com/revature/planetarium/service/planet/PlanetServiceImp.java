@@ -4,8 +4,11 @@ import com.revature.planetarium.entities.Planet;
 import com.revature.planetarium.exceptions.PlanetFail;
 import com.revature.planetarium.repository.planet.PlanetDao;
 
+import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class PlanetServiceImp<T> implements PlanetService<T> {
 
@@ -17,18 +20,29 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
 
     @Override
     public Planet createPlanet(Planet planet) {
+        //System.out.println("This is the image string: " + planet.getImageData());
+        //System.out.println("this is the byte array" + planet.imageDataAsByteArray());
         if (planet.getPlanetName().length() < 1 || planet.getPlanetName().length() > 30) {
-            throw new PlanetFail("character length fail");
+            throw new PlanetFail("Invalid planet name");
+        }
+        Pattern pattern = Pattern.compile("[@$#^&*()]");
+        Matcher matcher = pattern.matcher(planet.getPlanetName());
+        if (matcher.find()) {
+            throw new PlanetFail("Invalid planet name");
         }
         Optional<Planet> existingPlanet = planetDao.readPlanet(planet.getPlanetName());
         if (existingPlanet.isPresent()) {
-            throw new PlanetFail("unique name fail");
+            throw new PlanetFail("Invalid planet name");
+        }
+
+        if (!isValidImageType(planet.getImageData())){
+            throw new PlanetFail("Invalid file type");
         }
         Optional<Planet> createdPlanet = planetDao.createPlanet(planet);
         if (createdPlanet.isPresent()) {
             return createdPlanet.get();
         } else {
-            throw new PlanetFail("Could not create planet");
+            throw new PlanetFail("Cannot create planet");
         }
     }
 
@@ -82,7 +96,7 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
     }
 
     @Override
-    public String deletePlanet(T idOrName) {
+    public boolean deletePlanet(T idOrName) {
         boolean deleted;
         if (idOrName instanceof Integer) {
             deleted = planetDao.deletePlanet((int) idOrName);
@@ -92,10 +106,41 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
             throw new PlanetFail("identifier must be an Integer or String");
         }
         if (deleted) {
-            return "Planet deleted successfully";
+            return true;
         } else {
-            throw new PlanetFail("Planet delete failed, please try again");
+            throw new PlanetFail("Invalid planet name");
         }
+    }
+
+    //method to check image data
+    //Method to check if the image is a valid type (PNG, JPEG) and reject GIFs
+    private boolean isValidImageType(String base64imagedata) {
+
+        try {
+            if (base64imagedata == null) {
+                System.out.println("No image data provided.");
+                return true; // Invalid if no image data
+            }
+
+            byte[] imageBytes = Base64.getDecoder().decode(base64imagedata);
+            System.out.println("First byte: " + (imageBytes[0] & 0xFF));
+            if (imageBytes[0] == (byte) 0xFF && imageBytes[1] == (byte) 0xD8) {
+                return true;
+            } else if (imageBytes[0] == (byte) 0x89 && imageBytes[1] == (byte) 0x50 && imageBytes[2] == (byte) 0x4E && imageBytes[3] == (byte) 0x47) {
+                return true;
+            } else if (imageBytes[0] == (byte) 0x47 && imageBytes[1] == (byte) 0x49 && imageBytes[2] == (byte) 0x46) {
+                return false;
+
+            } else {
+                System.out.println("Insufficient data to determine image type.");
+                return false;
+            }
+
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid Base64 string: " + e.getMessage());
+            return false;
+        }
+
     }
 
 }
