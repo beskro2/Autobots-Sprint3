@@ -17,7 +17,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        //repository suites
+           //repository suites
         CreatePlanetDaoTestSuite.class,
         DeletePlanetDaoTestSuite.class,
         HomepageDAOTestSuite.class,
@@ -31,7 +31,9 @@ import org.junit.runners.Suite;
         HomepageServiceTestSuite.class,
         UserServiceTestSuite.class,
         createMoonServiceTestSuite.class,
-        deleteMoonDaoTestSuite.class
+        deleteMoonServiceTestSuite.class
+
+
 
 
 
