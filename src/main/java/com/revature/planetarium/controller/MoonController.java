@@ -49,7 +49,7 @@ public class MoonController {
     public void createMoon(Context ctx) {
         try {
             Moon moon = ctx.bodyAsClass(Moon.class);
-            Moon createdMoon = moonService.createMoon(moon);
+            Boolean createdMoon = moonService.createMoon(moon);
             ctx.json(createdMoon);
             ctx.status(201);
         } catch (MoonFail e) {
