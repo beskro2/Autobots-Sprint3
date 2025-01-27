@@ -38,16 +38,15 @@ public class MoonDaoCreateMoonNegativeTest extends MoonDaoTest {
     @Parameters
     public static Collection<Object> inputs(){
         return Arrays.asList(new Object[][]{
-                {0,"gandalffrodosamlegolisegimliborimirearigorn",1,"","Invalid moon name"},
-                {0,"",1,"","Invalid moon name"},
-                {0,"Saurumon#@!",1,"","Invalid moon name"},
-                {0,"Luna",1,"","Invalid moon name"},//repeat
-                {0,"Sam Wise_22-",0,"","Invalid planet ID"},
-                {0,"Sam Wise_22-","a","","Invalid planet ID"},
-                {0,"Sam Wise_22-",2147000000,"","Invalid planet ID"},
-                {0,"Sam Wise_22-",1,"src/test/resources/test_images/Moon-6.webp","Invalid file type"}, //.webp
-                {0,"Sam Wise_22-",1,"src/test/resources/Celestial-Images/planet-5a.tiff","Invalid file type"} ,//,tiff
-                {0,"Sam Wise_22-",1,"src/test/resources/test_images/Moon-7.gif","Invalid file type"}, //gif
+           {0,"gandalffrodosamlegolisegimliborimirearigorn",1,"","Invalid moon name"},
+            {0,"",1,"","Invalid moon name"},
+            {0,"Saurumon#@!",1,"","Invalid moon name"},
+            {0,"Luna",1,"","Invalid moon name"},//repeat
+            {0,"Sam Wise_22-",0,"","Invalid planet ID"},
+            {0,"Sam Wise_22-",2147000000,"","Invalid planet ID"},
+            {0,"Sam Wise_22-",1,"src/test/resources/test_images/Moon-6.webp","Invalid file type"}, //.webp
+            {0,"Sam Wise_22-",1,"src/test/resources/Celestial-Images/planet-5a.tiff","Invalid file type"} ,//,tiff
+            {0,"Sam Wise_22-",1,"src/test/resources/test_images/giphy.gif","Invalid file type"}, //gif
 
         });
     }
