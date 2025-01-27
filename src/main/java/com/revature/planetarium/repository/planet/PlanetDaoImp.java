@@ -1,5 +1,9 @@
 package com.revature.planetarium.repository.planet;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,6 +22,9 @@ public class PlanetDaoImp implements PlanetDao {
 
     @Override
     public Optional<Planet> createPlanet(Planet planet) {
+        if (!isValidImageType(planet.imageDataAsByteArray())){
+            throw new PlanetFail("Invalid file type");
+        }
         try (Connection conn = DatabaseConnector.getConnection();
              PreparedStatement stmt = conn.prepareStatement("INSERT INTO planets (name, ownerId, image) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS)){
             stmt.setString(1, planet.getPlanetName());
@@ -33,7 +40,7 @@ public class PlanetDaoImp implements PlanetDao {
             }
         } catch (SQLException e) {
             System.out.println(e);
-            throw new PlanetFail(e.getMessage());
+            throw new PlanetFail("Invalid planet name");
         }
         return Optional.empty();
     }
@@ -176,6 +183,21 @@ public class PlanetDaoImp implements PlanetDao {
         } catch (SQLException e) {
             System.out.println(e);
             throw new PlanetFail(e.getMessage());
+        }
+    }
+    private boolean isValidImageType(byte[] imageData) {
+        System.out.println("imagedata: "+ imageData );
+        // Check if imageData is null or empty
+        if (imageData == null || imageData.length == 0) {
+            System.out.println("No image data provided.");
+            return true; // Treat this as invalid if no image data is provided
+        }
+        try (InputStream is = new ByteArrayInputStream(imageData)) {
+            String mimeType = URLConnection.guessContentTypeFromStream(is);
+            System.out.println(mimeType);
+            return mimeType != null && (mimeType.equals("image/png") || mimeType.equals("image/jpeg"));
+        } catch (IOException e) {
+            return false;
         }
     }
     
