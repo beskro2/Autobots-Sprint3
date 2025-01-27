@@ -55,7 +55,7 @@ public class MoonServiceCreateMoonNegativeTest extends MoonServiceTest {
                     {0, "Sam Wise_23-", 2147000000, "", "Invalid planet ID"},
                     {0, "Sam Wise_25-", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/Moon-6.webp")), "Invalid file type"}, //.webp
                     {0, "Sam Wise_26-", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/Celestial-Images/planet-5a.tiff")), "Invalid file type"},//,tiff
-                    {0, "Sam Wise_27-", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/Moon-7.gif")), "Invalid file type"}, //gif
+                     {0, "Sam Wise_27-", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/giphy.gif")), "Invalid file type"}, //gif
 
             });
         }catch(IOException e){
