@@ -63,9 +63,9 @@ public class MoonController {
             String identifier = ctx.pathParam("identifier");
             String responseMessage;
             if(identifier.matches("^[0-9]+$")) {
-                responseMessage = moonService.deleteMoon(Integer.parseInt(identifier));
+                responseMessage = String.valueOf(moonService.deleteMoon(Integer.parseInt(identifier)));
             } else {
-                responseMessage = moonService.deleteMoon(identifier);
+                responseMessage = String.valueOf(moonService.deleteMoon(identifier));
             }
             ctx.json(responseMessage);
             ctx.status(200);

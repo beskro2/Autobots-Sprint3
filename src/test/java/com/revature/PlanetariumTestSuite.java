@@ -8,6 +8,7 @@ import com.revature.repository.homepage.suite.HomepageDAOTestSuite;
 
 import com.revature.service.createMoon.suite.createMoonServiceTestSuite;
 import com.revature.service.createPlanet.suite.CreatePlanetServiceTestSuite;
+import com.revature.service.deleteMoon.suite.deleteMoonServiceTestSuite;
 import com.revature.service.deletePlanet.suite.DeletePlanetServiceTestSuite;
 import com.revature.service.homepage.suite.HomepageServiceTestSuite;
 
