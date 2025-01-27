@@ -1,5 +1,9 @@
 package com.revature.planetarium.repository.moon;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -14,10 +18,35 @@ import com.revature.planetarium.entities.Moon;
 import com.revature.planetarium.exceptions.MoonFail;
 import com.revature.planetarium.utility.DatabaseConnector;
 
+
 public class MoonDaoImp implements MoonDao {
+
+ private boolean isValidImageType(byte[] imageData){
+        System.out.println("imagedata: "+imageData );
+
+        // Check if imageData is null or empty
+        if (imageData == null || imageData.length == 0) {
+            System.out.println("No image data provided.");
+            return true; // Treat this as invalid if no image data is provided
+        }
+
+        try (InputStream is = new ByteArrayInputStream(imageData)){
+            String mimeType = URLConnection.guessContentTypeFromStream(is);
+            System.out.println(mimeType);
+            return mimeType != null && (mimeType.equals("image/png") || mimeType.equals("image/jpeg"));
+        } catch (IOException e) {
+            return false;
+        }
+    }
 
     @Override
     public Optional<Moon> createMoon(Moon moon) {
+
+
+        if(!isValidImageType(moon.imageDataAsByteArray())){
+            throw new MoonFail("Invalid file type");
+        }
+
         try (Connection conn = DatabaseConnector.getConnection();
              PreparedStatement stmt = conn.prepareStatement("INSERT INTO moons (name, myPlanetId, image) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS)){
             stmt.setString(1, moon.getMoonName());
@@ -28,13 +57,15 @@ public class MoonDaoImp implements MoonDao {
                 if (rs.next()) {
                     int newMoonId = rs.getInt(1);
                     moon.setMoonId(newMoonId);
+                    System.out.println(moon.toString());
                     return Optional.of(moon);
                 }
             }
         } catch (SQLException e) {
-            System.out.println(e);
+            System.out.println("test");
             throw new MoonFail(e.getMessage());
         }
+
         return Optional.empty();
     }
 
@@ -54,6 +85,7 @@ public class MoonDaoImp implements MoonDao {
                     String base64ImageData = Base64.getEncoder().encodeToString(byteImageData);
                     moon.setImageData(base64ImageData);
                 }
+
                 return Optional.of(moon);
             }
         } catch (SQLException e) {
@@ -173,6 +205,10 @@ public class MoonDaoImp implements MoonDao {
              PreparedStatement stmt = conn.prepareStatement("DELETE FROM moons WHERE name = ?")) {
             stmt.setString(1, name);
             int rowsDeleted = stmt.executeUpdate();
+            if(rowsDeleted == 0){
+                throw new MoonFail("Invalid moon name");
+            }
+
             return rowsDeleted > 0;
         } catch (SQLException e) {
             System.out.println(e);

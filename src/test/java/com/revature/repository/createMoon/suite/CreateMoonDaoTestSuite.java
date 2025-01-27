@@ -1,6 +1,8 @@
 package com.revature.repository.createMoon.suite;
 
 
+import com.revature.repository.createMoon.negative.MoonDaoCreateMoonNegativeTest;
+import com.revature.repository.createMoon.positive.MoonDaoCreateMoonPositiveTest;
 import com.revature.service.createMoon.negative.MoonServiceCreateMoonNegativeTest;
 import com.revature.service.createMoon.positive.MoonServiceCreateMoonPositiveTest;
 import org.junit.runner.RunWith;
@@ -8,8 +10,8 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        MoonServiceCreateMoonPositiveTest.class,
-        MoonServiceCreateMoonNegativeTest.class
+        MoonDaoCreateMoonPositiveTest.class,
+        MoonDaoCreateMoonNegativeTest.class
 })
 public class CreateMoonDaoTestSuite {
 }

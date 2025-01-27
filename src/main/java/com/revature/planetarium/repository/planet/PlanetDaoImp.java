@@ -179,12 +179,16 @@ public class PlanetDaoImp implements PlanetDao {
              PreparedStatement stmt = conn.prepareStatement("DELETE FROM planets WHERE name = ?")) {
             stmt.setString(1, name);
             int rowsDeleted = stmt.executeUpdate();
+            if(rowsDeleted ==0){
+                throw new PlanetFail("Invalid planet name");
+            }
             return rowsDeleted > 0;
         } catch (SQLException e) {
             System.out.println(e);
             throw new PlanetFail(e.getMessage());
         }
     }
+  
     private boolean isValidImageType(byte[] imageData) {
         System.out.println("imagedata: "+ imageData );
         // Check if imageData is null or empty
@@ -200,5 +204,4 @@ public class PlanetDaoImp implements PlanetDao {
             return false;
         }
     }
-    
 }
