@@ -19,7 +19,7 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
     }
 
     @Override
-    public Planet createPlanet(Planet planet) {
+    public Boolean createPlanet(Planet planet) {
         //System.out.println("This is the image string: " + planet.getImageData());
         //System.out.println("this is the byte array" + planet.imageDataAsByteArray());
         if (planet.getPlanetName().length() < 1 || planet.getPlanetName().length() > 30) {
@@ -40,7 +40,7 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
         }
         Optional<Planet> createdPlanet = planetDao.createPlanet(planet);
         if (createdPlanet.isPresent()) {
-            return createdPlanet.get();
+            return true;
         } else {
             throw new PlanetFail("Cannot create planet");
         }
