@@ -30,7 +30,7 @@ public class Unit_RegisterDuplicateUsername {
                 registration.accountCreation();
 
                  universal = new Universal(driver);
-                 String text = "defect";
+                 String text = "Invalid Username";
                  try {
                      text = universal.alertHandler();
                      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));

@@ -26,7 +26,7 @@ public class UserServicePositiveTest extends UserServiceTest {
         positiveUser = new User(0, "Super_man-2001", "Krypton-was_2000");
         mockReturnedUser = new User(2,"Super_man-2001", "Krypton-was_2000");
         mockOptional = Optional.of(mockReturnedUser);
-        createUserSuccessMessage = "User created successfully";
+        createUserSuccessMessage = "Created user with username "+ positiveUser.getUsername() + " and password " + positiveUser.getPassword();
         positiveAuthenticateCredentials = new User(0,"Batman","Iamthenight1939");
         positiveAuthenticateUser = new User(1,"Batman","Iamthenight1939");
         authenticateUserOptional = Optional.of(positiveAuthenticateUser);

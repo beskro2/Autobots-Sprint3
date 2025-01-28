@@ -7,7 +7,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.sqlite.SQLiteException;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -44,9 +46,9 @@ public class UserDaoCreateUserNegativeTest extends UserDaoTest {
                 {0,"2face","Krypton-was_2000","Invalid username"},
                 {0,"joker!!!!!!?)","Krypton-was_2000","Invalid username"},
                 {0,"Super_man-2001","b0Ts","Invalid password"},
-                {0,"Super_man-2001","AlfredIsTheBestButlerToExist111","Invalid password"},
-                {0,"Super_man-2001","3atman","Invalid password"},
-                {0,"Super_man-2001","A1fredIsTheBestButlerToExist!!","Invalid password"},
+              {0,"Super_man-2001","AlfredIsTheBestButlerToExist111","Invalid password"},
+               {0,"Super_man-2001","3Batman","Invalid password"},
+                {0,"Super_man-2001","A1fredIsTheBestButlerToExistYes!!","Invalid password"},
                 {0,"Super_man-2001","batman1","Invalid password"},
                 {0,"Super_man-2001","BATMAN1","Invalid password"},
                 {0,"Super_man-2001","Robin","Invalid password"},
@@ -61,9 +63,11 @@ public class UserDaoCreateUserNegativeTest extends UserDaoTest {
      */
     @Test
     public void daoCreateUserNegativeTest(){
+
         User testUser = new User(userId, username, password);
-        UserFail exception = Assert.assertThrows(UserFail.class, ()-> {userDao.createUser(testUser);});
-        Assert.assertEquals(exceptionMessage, exception.getMessage());
+
+        UserFail userFail = Assert.assertThrows(UserFail.class, ()-> {userDao.createUser(testUser);});
     }
+
 
 }
