@@ -37,12 +37,6 @@ public class PlanetViewDaoNegativeTest extends HomepageDaoTest{
         });
     }
 
-    // Test readPlanet() Using Negative Test Data (ID)
-
-
-    // Test readPlanet() Using Negative Test Data (Planet Name)
-
-
     // Test readPlanetsByOwner() Using Negative Test Data (Owner ID)
     @Test
     public void readPlanetsByOwnerNegative(){

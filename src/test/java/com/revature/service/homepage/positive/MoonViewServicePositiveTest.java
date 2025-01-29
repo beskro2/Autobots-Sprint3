@@ -58,52 +58,6 @@ public class MoonViewServicePositiveTest extends HomepageServiceTest {
         expectedMoonList3.add(positiveMoon2);
     }
 
-    // Testing selectMoon() with Negative Data (ID)
-    @Ignore("NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectMoonPositiveTestID(){
-        System.out.println("Testing Pre-Existing Moon Luna by ID:");
-        Mockito.when(moonDao.readMoon(positiveMoon.getMoonId())).thenReturn(readMoonOptional);
-        Moon result = moonService.selectMoon(positiveMoon.getMoonId());
-        Assert.assertEquals(expectedPositiveMoon, result);
-        System.out.println("Test Passed | Found ID: " + result.getMoonId() + " | Found Moon Name: " + result.getMoonName() + " | Found Planet ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Moon Titan by ID:");
-        Mockito.when(moonDao.readMoon(positiveMoon2.getMoonId())).thenReturn(readMoonOptional2);
-        result = moonService.selectMoon(positiveMoon2.getMoonId());
-        Assert.assertEquals(expectedPositiveMoon2, result);
-        System.out.println("Test Passed | Found ID: " + result.getMoonId() + " | Found Moon Name: " + result.getMoonName() + " | Found Planet ID: " + result.getOwnerId() + "\n");
-    }
-
-    // Testing selectMoon() with Negative Data (Planet Name)
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectMoonPositiveTestName(){
-        System.out.println("Testing Pre-Existing Moon Luna by Name:");
-        Mockito.when(moonDao.readMoon(positiveMoon.getMoonName())).thenReturn(readMoonOptional);
-        Moon result = moonService.selectMoon(positiveMoon.getMoonName());
-        Assert.assertEquals(expectedPositiveMoon, result);
-        System.out.println("Test Passed | Found ID: " + result.getMoonId() + " | Found Moon Name: " + result.getMoonName() + " | Found Planet ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Moon Titan by Name:");
-        Mockito.when(moonDao.readMoon(positiveMoon2.getMoonName())).thenReturn(readMoonOptional2);
-        result = moonService.selectMoon(positiveMoon2.getMoonName());
-        Assert.assertEquals(expectedPositiveMoon2, result);
-        System.out.println("Test Passed | Found ID: " + result.getMoonId() + " | Found Moon Name: " + result.getMoonName() + " | Found Planet ID: " + result.getOwnerId() + "\n");
-    }
-
-    // Testing selectAllMoons()
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectAllMoonsTest(){
-        Mockito.when(moonDao.readAllMoons()).thenReturn(expectedMoonList1);
-        List<Moon> result = moonService.selectAllMoons();
-        Assert.assertEquals(expectedMoonList1, result);
-        System.out.println("Test Passed, Found These Moons:");
-        for (Moon element : result){
-            System.out.println("Found ID: " + element.getMoonId() + " | Found Moon Name: " + element.getMoonName() + " | Found Planet ID: " + element.getOwnerId());
-        }
-        System.out.println("\n");
-    }
-
     // Testing selectByPlanet() Using Positive Data (Planet ID: Earth)
     @Test
     public void selectByPlanetTestEarth(){

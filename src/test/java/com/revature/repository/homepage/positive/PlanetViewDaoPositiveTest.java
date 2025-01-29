@@ -12,11 +12,6 @@ import java.util.Optional;
 
 public class PlanetViewDaoPositiveTest extends HomepageDaoTest {
 
-
-
-    // Testing Read All Planets Method With Expected Pre-Existing Planets
-
-
     // Testing Pre-Existing UserID: 1
     @Test
     public void readPlanetsByOwnerPositiveTest(){
