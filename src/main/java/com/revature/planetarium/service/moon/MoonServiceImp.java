@@ -54,6 +54,12 @@ public class MoonServiceImp<T> implements MoonService<T> {
         if(!isValidImageType(moon.getImageData())){
             throw new MoonFail("Invalid file type");
         }
+        System.out.println(moon.getMoonDescription());
+        //checks valid discription length
+        if(moon.getMoonDescription().length()>300){
+            throw new MoonFail("Invalid moon description");
+        }
+
         //finnal catch all
         Optional<Moon> newMoon = moonDao.createMoon(moon);
         if (newMoon.isEmpty()) {

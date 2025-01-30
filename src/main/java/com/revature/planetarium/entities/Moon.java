@@ -8,15 +8,17 @@ public class Moon {
     private int moonId;
     private String moonName;
     private int ownerId;
+    private String moonDescription;
     private byte[] imageData;
 
 
     public Moon(){}
 
-    public Moon(int id, String name, int planetId){
+    public Moon(int id, String name, int planetId, String description){
         this.moonId = id;
         this.moonName = name;
         this.ownerId = planetId;
+        this.moonDescription = description;
     }
     
     public int getMoonId() {
@@ -40,6 +42,8 @@ public class Moon {
     public void setImageData(String base64ImageData){
         imageData = Base64.getDecoder().decode(base64ImageData);
     }
+    public String getMoonDescription(){return moonDescription;}
+    public void setMoonDescription(String moonDescription){this.moonDescription = moonDescription;}
 
     public String getImageData(){
         if (imageData != null){
