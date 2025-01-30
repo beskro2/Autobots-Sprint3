@@ -35,13 +35,16 @@ public class CreatePlanetServicePositiveTest extends CreatePlanetServiceTest {
     @Parameter(2)
     public String imageData;
 
+    @Parameter(3)
+    public String planetDescription;
+
     @Parameters
     public static Collection<Object> input(){
         try {
             return Arrays.asList(new Object[][]{
-                    {"Treader  -2_2", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
-                    {"90Aries",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
-                    {"Molly_22", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_2.png"))}
+                    {"Treader  -2_2", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"Example Description"},
+                    {"90Aries",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"Another Example Description"},
+                    {"Molly_22", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_2.png")),""}
             });
         } catch (IOException e) {
             e.printStackTrace();
@@ -61,12 +64,14 @@ public class CreatePlanetServicePositiveTest extends CreatePlanetServiceTest {
         positivePlanet.setOwnerId(ownerId);
         positivePlanet.setImageData(imageData);
         positivePlanet.setPlanetId(0);
+        positivePlanet.setPlanetDescription(planetDescription);
 
         mockReturnedPlanet = new Planet();
         mockReturnedPlanet.setPlanetName(planetName);
         mockReturnedPlanet.setOwnerId(1);
         mockReturnedPlanet.setImageData(imageData);
         mockReturnedPlanet.setPlanetId(0);
+        mockReturnedPlanet.setPlanetDescription(planetDescription);
 
         mockOptionalTrue = Optional.of(mockReturnedPlanet);
         mockOptionalEmpty = Optional.empty();
@@ -74,6 +79,7 @@ public class CreatePlanetServicePositiveTest extends CreatePlanetServiceTest {
 
     @Test
     public void createPlanetDaoPositiveTest(){
+        System.out.println("This is planet desc: " + positivePlanet.getPlanetDescription());
         System.out.println("This is the planet name: " + positivePlanet.getPlanetName());
         Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetName())).thenReturn(mockOptionalEmpty);
         Mockito.when(planetDao.createPlanet(positivePlanet)).thenReturn(mockOptionalTrue);
