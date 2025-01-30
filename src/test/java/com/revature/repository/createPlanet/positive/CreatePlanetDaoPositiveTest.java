@@ -31,14 +31,17 @@ public class CreatePlanetDaoPositiveTest extends CreatePlanetDaoTest {
     @Parameter(2)
     public String imageData;
 
+    @Parameter(3)
+    public String planetDescription;
+
     @Parameters
     public static Collection<Object> input(){
         try {
             return Arrays.asList(new Object[][]{
-                    {"Little Earth",1, ""},
-                    {"Treader  -2_2", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
-                    {"90Aries",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg"))},
-                    {"Molly_22", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_2.png"))}
+                    {"Little Earth",1, "","Example description"},
+                    {"Treader  -2_2", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"Another example description"},
+                    {"90Aries",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),""},
+                    {"Molly_22", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_2.png")),""}
             });
         } catch (IOException e) {
             e.printStackTrace();
@@ -60,10 +63,12 @@ public class CreatePlanetDaoPositiveTest extends CreatePlanetDaoTest {
         positivePlanet.setOwnerId(ownerId);
         positivePlanet.setImageData(imageData);
         positivePlanet.setPlanetId(0);
+        positivePlanet.setPlanetDescription(planetDescription);
     }
 
     @Test
     public void createPlanetDaoPositiveTest(){
+        System.out.println("This is the planet desc: " + positivePlanet.getPlanetDescription());
         System.out.println("This is the planet name: " + positivePlanet.getPlanetName());
         Optional<Planet> result = planetDao.createPlanet(positivePlanet);
         Assert.assertTrue(result.isPresent());
