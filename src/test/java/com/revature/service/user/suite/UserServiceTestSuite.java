@@ -3,7 +3,7 @@ package com.revature.service.user.suite;
 
 import com.revature.service.negative.UserServiceAuthenticateNegativeTest;
 import com.revature.service.negative.UserServiceCreateUserNegativeTest;
-import com.revature.service.positive.UserServicePositiveTest;
+import com.revature.service.user.positive.UserServicePositiveTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

@@ -100,6 +100,26 @@
         })
     });
 
+    async function setBackgroundImage(url) {
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            response.text().then(function (imageData) {
+                document.body.style.backgroundImage = `url(data:image/jpg;base64,${imageData})`;
+                document.body.style.backgroundSize = 'cover';
+                document.body.style.backgroundPosition = 'center center';
+                document.body.style.backgroundRepeat = 'no-repeat';
+                document.body.style.backgroundAttachment = 'fixed';
+            });
+
+
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
 function checkUsername(credential){
       const regex = /^[a-zA-Z][a-zA-Z0-9_-]{4,29}$/;
       return regex.test(credential);
@@ -109,5 +129,7 @@ function checkUsername(credential){
       const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z][a-zA-Z0-9_-]{4,29}$/;
       return regex.test(credential);
     }
+
+    setBackgroundImage('http://{URL}:{PORT}/background2');
   </script>
 </html>
