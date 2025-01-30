@@ -34,16 +34,20 @@ public class CreatePlanetDaoNegativeTest extends CreatePlanetDaoTest {
     public String imageData;
 
     @Parameter(3)
+    public String planetDescription;
+
+    @Parameter(4)
     public String expectedMessage;
 
     @Parameters
     public static Collection<Object> input(){
         try {
             return Arrays.asList(new Object[][]{
-                    {"", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Molly tess tobi toff garthog lord of unholy darkness", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Molly $@#", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")) , "Invalid file type"}
+                    {"", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"Example description" ,"Invalid planet name"},
+                    {"Molly tess tobi toff garthog lord of unholy darkness", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "","Invalid planet name"},
+                    {"Molly $@#", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "","Invalid planet name"},
+                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")), "","Invalid file type"},
+                    {"LittleBig Planet",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"ExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExample","Invalid description"}
             });
         } catch (IOException e) {
             e.printStackTrace();
@@ -58,6 +62,7 @@ public class CreatePlanetDaoNegativeTest extends CreatePlanetDaoTest {
         negativePlanet.setOwnerId(ownerId);
         negativePlanet.setImageData(imageData);
         negativePlanet.setPlanetId(0);
+        negativePlanet.setPlanetDescription(planetDescription);
     }
 
     public static byte[] convertImgToByteArray(String filePath) throws IOException {
@@ -68,7 +73,10 @@ public class CreatePlanetDaoNegativeTest extends CreatePlanetDaoTest {
     @Test
     public void createPlanetDaoNegativeTest(){
         System.out.println("This is the planet name: " + negativePlanet.getPlanetName());
+        System.out.println("Expected Message: " + expectedMessage);
+
         PlanetFail exception = Assert.assertThrows(PlanetFail.class, ()-> {planetDao.createPlanet(negativePlanet);});
+        System.out.println("Actual Message: " + exception.getMessage());
         Assert.assertEquals(expectedMessage, exception.getMessage());
     }
 
