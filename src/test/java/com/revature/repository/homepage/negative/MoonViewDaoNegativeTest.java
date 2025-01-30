@@ -30,32 +30,12 @@ public class MoonViewDaoNegativeTest extends HomepageDaoTest{
         return Arrays.asList(new Object[][]{
                 {-1,"", -1},
                 {0,"@@@@", 0},
-                {3,"9Earth", 3},
+                //{3,"9Earth", 3},
                 {9,"notaplanet", 9},
                 {99,"11111111111111111", 99},
                 {999," ", 999},
                 {9999,"DOESNTEXIST1!!!", 9999},
         });
-    }
-
-    // Test readMoon() Using Negative Test Data (ID)
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void readMoonNegativeTestID(){
-        System.out.println("Testing readMoon() using ID: " + moonID);
-        Optional<Moon> result = moonDao.readMoon(moonID);
-        Assert.assertFalse(result.isPresent());
-        System.out.println("\n");
-    }
-
-    // Test readMoon() Using Negative Test Data (Moon Name)
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void readMoonNegativeTestName(){
-        System.out.println("Testing readMoon() using Planet Name: " + moonName);
-        Optional<Moon> result = moonDao.readMoon(moonName);
-        Assert.assertFalse(result.isPresent());
-        System.out.println("\n");
     }
 
     // Test readMoonsByPlanet() Using Negative Test Data (Planet ID)

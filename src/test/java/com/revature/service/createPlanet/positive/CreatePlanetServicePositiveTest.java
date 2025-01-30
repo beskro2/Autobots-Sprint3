@@ -77,7 +77,7 @@ public class CreatePlanetServicePositiveTest extends CreatePlanetServiceTest {
         System.out.println("This is the planet name: " + positivePlanet.getPlanetName());
         Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetName())).thenReturn(mockOptionalEmpty);
         Mockito.when(planetDao.createPlanet(positivePlanet)).thenReturn(mockOptionalTrue);
-        Planet result = planetService.createPlanet(positivePlanet);
+        boolean result = planetService.createPlanet(positivePlanet);
         //System.out.println("This is the planet name for result: " + result.getPlanetName());
         Assert.assertEquals(true, result);
         //System.out.println("This is the planetID for result: " + result.getPlanetId());

@@ -50,52 +50,6 @@ public class PlanetViewServicePositiveTest extends HomepageServiceTest {
         expectedPlanetList.add(positivePlanet2);
     }
 
-    // Testing selectPlanet() with Positive Data (ID)
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectPlanetPositiveTestID(){
-        System.out.println("Testing Pre-Existing Planet Earth by ID:");
-        Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetId())).thenReturn(readPlanetOptional);
-        Planet result = planetService.selectPlanet(positivePlanet.getPlanetId());
-        Assert.assertEquals(expectedPositivePlanet, result);
-        System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Planet Mars by ID:");
-        Mockito.when(planetDao.readPlanet(positivePlanet2.getPlanetId())).thenReturn(readPlanetOptional2);
-        result = planetService.selectPlanet(positivePlanet2.getPlanetId());
-        Assert.assertEquals(expectedPositivePlanet2, result);
-        System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId() + "\n");
-    }
-
-    // Testing selectPlanet() with Positive Data (Planet Name)
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectPlanetPositiveTestName(){
-        System.out.println("Testing Pre-Existing Planet Earth by Name:");
-        Mockito.when(planetDao.readPlanet(positivePlanet.getPlanetName())).thenReturn(readPlanetOptional);
-        Planet result = planetService.selectPlanet(positivePlanet.getPlanetName());
-        Assert.assertEquals(expectedPositivePlanet, result);
-        System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId());
-        System.out.println("Testing Pre-Existing Planet Mars by Name:");
-        Mockito.when(planetDao.readPlanet(positivePlanet2.getPlanetName())).thenReturn(readPlanetOptional2);
-        result = planetService.selectPlanet(positivePlanet2.getPlanetName());
-        Assert.assertEquals(expectedPositivePlanet2, result);
-        System.out.println("Test Passed | Found ID: " + result.getPlanetId() + " | Found Planet Name: " + result.getPlanetName() + " | Found Owner ID: " + result.getOwnerId() + "\n");
-    }
-
-    // Testing selectAllPlanets()
-    @Ignore("NOT NEEDED TO MEET MVP REQUIREMENTS")
-    @Test
-    public void selectAllPlanetsTest(){
-        Mockito.when(planetDao.readAllPlanets()).thenReturn(expectedPlanetList);
-        List<Planet> result = planetService.selectAllPlanets();
-        Assert.assertEquals(expectedPlanetList, result);
-        System.out.println("Test Passed, Found These Planets:");
-        for (Planet element : result){
-            System.out.println("Found ID: " + element.getPlanetId() + " | Found Planet Name: " + element.getPlanetName() + " | Found Owner ID: " + element.getOwnerId());
-        }
-        System.out.println("\n");
-    }
-
     // Testing selectByOwner() Using Positive Data (Owner ID)
     @Test
     public void selectByOwnerTest(){

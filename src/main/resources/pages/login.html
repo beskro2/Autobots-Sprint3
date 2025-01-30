@@ -95,9 +95,31 @@
     }
   }
 
+    async function setBackgroundImage(url) {
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            response.text().then(function (imageData) {
+                document.body.style.backgroundImage = `url(data:image/jpg;base64,${imageData})`;
+                document.body.style.backgroundSize = 'cover';
+                document.body.style.backgroundPosition = 'center center';
+                document.body.style.backgroundRepeat = 'no-repeat';
+                document.body.style.backgroundAttachment = 'fixed';
+            });
+
+
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
   document.getElementById('loginForm').addEventListener('submit', function(event) {
       event.preventDefault();
       login();
   });
+
+  setBackgroundImage('http://{URL}:{PORT}/background2');
   </script>
 </html>

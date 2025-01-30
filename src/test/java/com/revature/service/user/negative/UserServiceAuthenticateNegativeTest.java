@@ -59,7 +59,6 @@ public class UserServiceAuthenticateNegativeTest extends UserServiceTest {
             userService.authenticate(negativeUser);
             Assert.fail("Expected UserFail to be thrown, but it was not");
         } catch (UserFail e){
-          //  Assert.assertEquals(expectedExceptionMessage, e.getMessage());
             Assert.assertEquals(expectedExceptionMessage, e.getMessage());
         }
     }

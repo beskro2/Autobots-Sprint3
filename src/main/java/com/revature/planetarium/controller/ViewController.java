@@ -60,7 +60,21 @@ public class ViewController {
     }
 
     public void backgroundImage(Context ctx) throws IOException {
-        try (InputStream is = getClass().getClassLoader().getResourceAsStream("images/galaxy-4.jpg")) {
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("images/homepage.jpg")) {
+            if (is != null) {
+                byte[] fileBytes = is.readAllBytes();
+                String imageDataBase64 = Base64.getEncoder().encodeToString(fileBytes);
+                ctx.result(imageDataBase64);
+            } else {
+                // Handle resource not found
+                ctx.result("Resource not found");
+                ctx.status(404);
+            }
+        }
+    }
+
+    public void backgroundImage2(Context ctx) throws IOException {
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("images/initial.jpg")) {
             if (is != null) {
                 byte[] fileBytes = is.readAllBytes();
                 String imageDataBase64 = Base64.getEncoder().encodeToString(fileBytes);

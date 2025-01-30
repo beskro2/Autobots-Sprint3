@@ -51,6 +51,7 @@ public class JavalinSetup {
 
         // for background image
         app.get("/background", viewController::backgroundImage);
+        app.get("/background2", viewController::backgroundImage2);
         
         /*
          * Mapping Pages to Javalin app

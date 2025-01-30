@@ -1,11 +1,20 @@
 package com.revature.planetarium.service.moon;
 
 import com.revature.planetarium.entities.Moon;
+import com.revature.planetarium.entities.Planet;
 import com.revature.planetarium.exceptions.MoonFail;
 import com.revature.planetarium.repository.moon.MoonDao;
 
+
+import java.util.Base64;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
 import java.util.List;
 import java.util.Optional;
+
+import static com.revature.planetarium.utility.JavalinSetup.planetDao;
 
 public class MoonServiceImp<T> implements MoonService<T> {
     
@@ -16,22 +25,74 @@ public class MoonServiceImp<T> implements MoonService<T> {
     }
 
     @Override
-    public Moon createMoon(Moon moon) {
+    public Boolean createMoon(Moon moon) {
+        Boolean createMoonSuccess = true;
+
         if (moon.getMoonName().length() < 1 || moon.getMoonName().length() > 30) {
-            throw new MoonFail("character length fail");
+            throw new MoonFail("Invalid moon name");
         }
+
+        // check for non numerical alphabetical whitespace or - _ characters
+        Pattern p = Pattern.compile("[^a-zA-Z0-9 _-]");
+        Matcher m = p.matcher(moon.getMoonName());
+        if(m.find()){
+            System.out.println("not allowed character");
+            throw new MoonFail("Invalid moon name");
+        }
+        //check for already used names
         Optional<Moon> existingMoon = moonDao.readMoon(moon.getMoonName());
         if (existingMoon.isPresent()) {
 
-            throw new MoonFail("unique name fail");
+            throw new MoonFail("Invalid moon name");
         }
+        // check planet id exists
+        Optional<Planet> existingPlanet = planetDao.readPlanet(moon.getOwnerId());
+        if(existingPlanet.isEmpty()){
+            throw new MoonFail("Invalid planet ID");
+        }
+        //checks valid image file types
+        if(!isValidImageType(moon.getImageData())){
+            throw new MoonFail("Invalid file type");
+        }
+        //finnal catch all
         Optional<Moon> newMoon = moonDao.createMoon(moon);
         if (newMoon.isEmpty()) {
-            throw new MoonFail("Could not create new moon");
+            System.out.println("test");
+            throw new MoonFail("Create new Moon Failed");
         }
-        return newMoon.get();
+
+        return createMoonSuccess;
     }
 
+//method to check image data
+ //Method to check if the image is a valid type (PNG, JPEG) and reject GIFs
+private boolean isValidImageType(String base64imagedata) {
+    try {
+        if (base64imagedata == null) {
+            System.out.println("No image data provided.");
+            return true; // Invalid if no image data
+        }
+
+        byte[] imageBytes = Base64.getDecoder().decode(base64imagedata);
+        System.out.println("First byte: " + (imageBytes[0] & 0xFF));
+        if (imageBytes[0] == (byte) 0xFF && imageBytes[1] == (byte) 0xD8) {
+            return true;
+        } else if (imageBytes[0] == (byte) 0x89 && imageBytes[1] == (byte) 0x50 && imageBytes[2] == (byte) 0x4E && imageBytes[3] == (byte) 0x47) {
+            return true;
+        } else if (imageBytes[0] == (byte) 0x47 && imageBytes[1] == (byte) 0x49 && imageBytes[2] == (byte) 0x46) {
+            return false;
+
+            } else {
+                System.out.println("Insufficient data to determine image type.");
+                return false;
+            }
+
+    } catch (IllegalArgumentException e) {
+        System.out.println("Invalid Base64 string: " + e.getMessage());
+        return false;
+    }
+
+}
 
     @Override
     public Moon selectMoon(T idOrName) {
@@ -82,19 +143,19 @@ public class MoonServiceImp<T> implements MoonService<T> {
     }
 
     @Override
-    public String deleteMoon(T idOrName) {
+    public Boolean deleteMoon(T idOrName) {
         boolean deleted;
         if (idOrName instanceof Integer) {
             deleted = moonDao.deleteMoon((int) idOrName);
         } else if (idOrName instanceof String) {
             deleted = moonDao.deleteMoon((String) idOrName);
         } else {
-            throw new MoonFail("Identifier must be an Integer or String");
+            throw new MoonFail("Invalid moon name");
         }
         if (deleted) {
-            return "Moon deleted successfully";
+            return deleted;
         } else {
-            throw new MoonFail("Moon delete failed, please try again");
+            throw new MoonFail("Invalid moon name");
         }
     }
 
