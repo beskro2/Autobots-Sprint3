@@ -39,17 +39,21 @@ public class CreatePlanetServiceNegativeTest extends CreatePlanetServiceTest {
     public String imageData;
 
     @Parameter(3)
+    public String planetDescription;
+
+    @Parameter(4)
     public String expectedMessage;
 
     @Parameters
     public static Collection<Object> input(){
         try {
             return Arrays.asList(new Object[][]{
-                    {"", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Molly tess tobi toff garthog lord of unholy darkness", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Molly $@#", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "Invalid planet name"},
-                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")) , "Invalid file type"},
-                    {"Earth",1,"","Invalid planet name"}
+                    {"", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "","Invalid planet name"},
+                    {"Molly tess tobi toff garthog lord of unholy darkness", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "", "Invalid planet name"},
+                    {"Molly $@#", 1, Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")), "","Invalid planet name"},
+                    {"Little Planet", 1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/bad_filetype.gif")) , "","Invalid file type"},
+                    {"Earth",1,"","","Invalid planet name"},
+                    {"LittleBig Planet",1,Base64.getEncoder().encodeToString(convertImgToByteArray("src/test/resources/test_images/good_filetype_1.jpg")),"ExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExample","Invalid description"}
             });
         } catch (IOException e) {
             e.printStackTrace();
@@ -64,12 +68,14 @@ public class CreatePlanetServiceNegativeTest extends CreatePlanetServiceTest {
         negativePlanet.setOwnerId(ownerId);
         negativePlanet.setImageData(imageData);
         negativePlanet.setPlanetId(0);
+        negativePlanet.setPlanetDescription(planetDescription);
 
         mockReturnedPlanet = new Planet();
         mockReturnedPlanet.setPlanetName("Earth");
         mockReturnedPlanet.setOwnerId(1);
         mockReturnedPlanet.setImageData(imageData);
         mockReturnedPlanet.setPlanetId(0);
+        mockReturnedPlanet.setPlanetDescription(planetDescription);
         mockOptionalEmpty = Optional.empty();
 
         //This is used to mock what happens when negative data is being passed in the dao
@@ -87,6 +93,7 @@ public class CreatePlanetServiceNegativeTest extends CreatePlanetServiceTest {
     @Test
     public void createPlanetDaoNegativeTest(){
         System.out.println("This is the planet name: " + negativePlanet.getPlanetName());
+        System.out.println("This is the description: " + negativePlanet.getPlanetDescription());
         //This will have the optional variable be not empty so that first check will fail
         Mockito.when(planetDao.readPlanet(mockReturnedPlanet.getPlanetName())).thenReturn(mockOptional);
 
