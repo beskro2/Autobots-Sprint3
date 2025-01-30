@@ -38,6 +38,9 @@ public class PlanetServiceImp<T> implements PlanetService<T> {
         if (!isValidImageType(planet.getImageData())){
             throw new PlanetFail("Invalid file type");
         }
+        if (planet.getPlanetDescription().length() > 300) {
+            throw new PlanetFail("Invalid description");
+        }
         Optional<Planet> createdPlanet = planetDao.createPlanet(planet);
         if (createdPlanet.isPresent()) {
             return true;
