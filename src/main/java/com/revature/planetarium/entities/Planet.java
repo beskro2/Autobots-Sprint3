@@ -4,13 +4,14 @@ package com.revature.planetarium.entities;
 import java.util.Base64;
 
 public class Planet {
-    
+
 
     private int planetId;
     private String planetName;
     private int ownerId;
     private byte[] imageData;
-    
+    private String planetDescription;
+
     public int getPlanetId() {
         return planetId;
     }
@@ -33,6 +34,9 @@ public class Planet {
     public void setImageData(String base64ImageData){
         imageData = Base64.getDecoder().decode(base64ImageData);
     }
+
+    public void setPlanetDescription(String desc) {this.planetDescription = desc;}
+    public String getPlanetDescription(){return planetDescription;}
 
     public String getImageData(){
         if (imageData != null){
