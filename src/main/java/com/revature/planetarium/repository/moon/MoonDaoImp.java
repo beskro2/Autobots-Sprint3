@@ -141,6 +141,7 @@ public class MoonDaoImp implements MoonDao {
                 moon.setMoonId(rs.getInt("id"));
                 moon.setMoonName(rs.getString("name"));
                 moon.setOwnerId(rs.getInt("myPlanetId"));
+                moon.setMoonDescription(rs.getString("description"));
                 byte[] byteImageData = rs.getBytes("image");
                 if (byteImageData != null){
                     String base64ImageData = Base64.getEncoder().encodeToString(byteImageData);
