@@ -120,7 +120,7 @@
         });
 
         async function populateCelestialTable() {
-        document.getElementById('celestialTable').innerHTML = '<tr><th>Type</th><th>ID</th><th>Name</th><th>Owner</th><th>Image</th><th>Description</th></tr>';
+        document.getElementById('celestialTable').innerHTML = '<tr><th>Type</th><th>ID</th><th>Name</th><th>Owner</th><th>Description</th><th>Image</th></tr>';
         const response = await fetch(`http://{URL}:{PORT}/planetarium/planet/owner/${sessionStorage.getItem("userId")}`, {credentials: 'include'});
         if (response.ok) {
             const data = await response.json();
@@ -132,16 +132,16 @@
                 const idCell = row.insertCell(1);
                 const nameCell = row.insertCell(2);
                 const ownerCell = row.insertCell(3);
-                const imageCell = row.insertCell(4);
-                const descriptionCell = row.insertCell(5);
+                const descriptionCell = row.insertCell(4);
+                const imageCell = row.insertCell(5);
                 typeCell.textContent = 'planet';
                 idCell.textContent = planet.planetId;
                 nameCell.textContent = planet.planetName;
                 ownerCell.textContent = planet.ownerId;
+                descriptionCell.textContent = planet.planetDescription;
                 const planetImageElement = document.createElement('img');
                 planetImageElement.src = `data:image/jpeg;base64,${planet.imageData}`;
                 imageCell.appendChild(planetImageElement);
-                descriptionCell.textContext = planet.description;
             });
         }
         const moonResponse = await fetch('http://{URL}:{PORT}/planetarium/moon', {credentials: 'include'});
@@ -155,16 +155,16 @@
                     const idCell = row.insertCell(1);
                     const nameCell = row.insertCell(2);
                     const ownerCell = row.insertCell(3);
-                    const imageCell = row.insertCell(4);
-                    const descriptionCell = row.insertCell(5);
+                    const descriptionCell = row.insertCell(4);
+                    const imageCell = row.insertCell(5);
                     typeCell.textContent = 'moon';
                     idCell.textContent = moon.moonId;
                     nameCell.textContent = moon.moonName;
                     ownerCell.textContent = moon.ownerId;
+                    descriptionCell.textContent = 'moon description placeholder';
                     const moonImageElement = document.createElement('img');
                     moonImageElement.src = `data:image/jpeg;base64,${moon.imageData}`;
                     imageCell.appendChild(moonImageElement);
-                    descriptionCell.textContext = moon.description;
                 });
             }
         }
@@ -235,6 +235,13 @@
             planetNameInput.placeholder = 'Enter Planet Name';
             inputContainer.appendChild(planetNameInput);
 
+            let planetDescInput = document.createElement('input');
+            planetDescInput.type = 'text';
+            planetDescInput.id = 'planetDescInput';
+            planetDescInput.name = 'Planet Description';
+            planetDescInput.placeholder = 'Enter Planet Description';
+            inputContainer.appendChild(planetDescInput);
+
             let planetImageInput = document.createElement('input');
             planetImageInput.type = 'file';
             planetImageInput.id = 'planetImageInput';
@@ -286,6 +293,7 @@
                 alert("Invalid planet name");
                 return;
             }
+            let planetDescription = document.getElementById('planetDescInput').value;
             let planetImageInput = document.getElementById('planetImageInput');
             let imageData = (planetImageInput.files.length > 0) ? await convertToBase64(planetImageInput) : null;
             let bodyData;
@@ -293,12 +301,14 @@
                 bodyData = {
                     "planetName": planetName,
                     "ownerId": sessionStorage.getItem("userId"),
-                    "imageData": imageData
+                    "imageData": imageData,
+                    "planetDescription": planetDescription
                 }
             } else{
                 bodyData = {
                     "planetName": planetName,
-                    "ownerId": sessionStorage.getItem("userId")
+                    "ownerId": sessionStorage.getItem("userId"),
+                    "planetDescription": planetDescription
                 }
             }
             const bodyJson = JSON.stringify(bodyData);

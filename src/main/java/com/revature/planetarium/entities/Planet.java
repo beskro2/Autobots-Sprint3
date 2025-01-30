@@ -10,6 +10,7 @@ public class Planet {
     private String planetName;
     private int ownerId;
     private byte[] imageData;
+    private String planetDescription;
     
     public int getPlanetId() {
         return planetId;
@@ -28,6 +29,12 @@ public class Planet {
     }
     public void setOwnerId(int ownerId) {
         this.ownerId = ownerId;
+    }
+    public void setPlanetDescription (String planetDescription) {
+        this.planetDescription = planetDescription;
+    }
+    public String getPlanetDescription () {
+        return this.planetDescription;
     }
 
     public void setImageData(String base64ImageData){

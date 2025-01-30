@@ -26,10 +26,11 @@ public class PlanetDaoImp implements PlanetDao {
             throw new PlanetFail("Invalid file type");
         }
         try (Connection conn = DatabaseConnector.getConnection();
-             PreparedStatement stmt = conn.prepareStatement("INSERT INTO planets (name, ownerId, image) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS)){
+             PreparedStatement stmt = conn.prepareStatement("INSERT INTO planets (name, ownerId, image, description) VALUES (?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS)){
             stmt.setString(1, planet.getPlanetName());
             stmt.setInt(2, planet.getOwnerId());
             stmt.setBytes(3, planet.imageDataAsByteArray());
+            stmt.setString(4, planet.getPlanetDescription());
             stmt.executeUpdate();
             try (ResultSet rs = stmt.getGeneratedKeys()){
                 if (rs.next()) {
@@ -57,6 +58,7 @@ public class PlanetDaoImp implements PlanetDao {
                     planet.setPlanetId(rs.getInt("id"));
                     planet.setPlanetName(rs.getString("name"));
                     planet.setOwnerId(rs.getInt("ownerId"));
+                    planet.setPlanetDescription(rs.getString("description"));
                     return Optional.of(planet);
                 }
             }
@@ -78,6 +80,7 @@ public class PlanetDaoImp implements PlanetDao {
                         planet.setPlanetId(rs.getInt("id"));
                         planet.setPlanetName(rs.getString("name"));
                         planet.setOwnerId(rs.getInt("ownerId"));
+                        planet.setPlanetDescription(rs.getString("description"));
                         return Optional.of(planet);
                     }
                 }
@@ -100,6 +103,7 @@ public class PlanetDaoImp implements PlanetDao {
                     planet.setPlanetId(rs.getInt("id"));
                     planet.setPlanetName(rs.getString("name"));
                     planet.setOwnerId(rs.getInt("ownerId"));
+                    planet.setPlanetDescription(rs.getString("description"));
                     if(rs.getBytes("image") != null){
                         byte[] imageDataAsBytes = rs.getBytes("image");
                         String imageDataBase64 = Base64.getEncoder().encodeToString(imageDataAsBytes);
@@ -126,6 +130,7 @@ public class PlanetDaoImp implements PlanetDao {
                     planet.setPlanetId(rs.getInt("id"));
                     planet.setPlanetName(rs.getString("name"));
                     planet.setOwnerId(rs.getInt("ownerId"));
+                    planet.setPlanetDescription(rs.getString("description"));
                     if(rs.getBytes("image") != null){
                         byte[] imageDataAsBytes = rs.getBytes("image");
                         String imageDataBase64 = Base64.getEncoder().encodeToString(imageDataAsBytes);
