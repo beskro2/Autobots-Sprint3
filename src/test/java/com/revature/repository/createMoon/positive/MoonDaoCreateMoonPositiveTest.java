@@ -57,7 +57,7 @@ public class MoonDaoCreateMoonPositiveTest extends MoonDaoTest {
 
     @Test
     public void CreateMoonPositiveTest(){
-    Moon positiveMoon = new Moon(moonId,moonName,planetID);
+    Moon positiveMoon = new Moon(moonId,moonName,planetID,"test");
     positiveMoon.setImageData(imageData);
     Optional<Moon> response = moonDao.createMoon(positiveMoon);
     Assert.assertTrue((response.isPresent()));

@@ -57,7 +57,7 @@ public class MoonDaoCreateMoonNegativeTest extends MoonDaoTest {
 
     @Test
     public void CreateMoonNegativeTest(){
-        Moon testMoon = new Moon(moonId,moonName,planetID);
+        Moon testMoon = new Moon(moonId,moonName,planetID, "test");
         try {
             byte[] imageBytes = Files.readAllBytes(Paths.get(imageData));
             String imagedata64 = Base64.getEncoder().encodeToString(imageBytes);

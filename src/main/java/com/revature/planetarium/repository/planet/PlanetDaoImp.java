@@ -61,6 +61,7 @@ public class PlanetDaoImp implements PlanetDao {
                     planet.setPlanetId(rs.getInt("id"));
                     planet.setPlanetName(rs.getString("name"));
                     planet.setOwnerId(rs.getInt("ownerId"));
+                    planet.setPlanetDescription(rs.getString("description"));
                     return Optional.of(planet);
                 }
             }
@@ -82,6 +83,7 @@ public class PlanetDaoImp implements PlanetDao {
                         planet.setPlanetId(rs.getInt("id"));
                         planet.setPlanetName(rs.getString("name"));
                         planet.setOwnerId(rs.getInt("ownerId"));
+                        planet.setPlanetDescription(rs.getString("description"));
                         return Optional.of(planet);
                     }
                 }
@@ -104,6 +106,7 @@ public class PlanetDaoImp implements PlanetDao {
                 planet.setPlanetId(rs.getInt("id"));
                 planet.setPlanetName(rs.getString("name"));
                 planet.setOwnerId(rs.getInt("ownerId"));
+                planet.setPlanetDescription(rs.getString("description"));
                 if(rs.getBytes("image") != null){
                     byte[] imageDataAsBytes = rs.getBytes("image");
                     String imageDataBase64 = Base64.getEncoder().encodeToString(imageDataAsBytes);
@@ -130,6 +133,7 @@ public class PlanetDaoImp implements PlanetDao {
                     planet.setPlanetId(rs.getInt("id"));
                     planet.setPlanetName(rs.getString("name"));
                     planet.setOwnerId(rs.getInt("ownerId"));
+                    planet.setPlanetDescription(rs.getString("description"));
                     if(rs.getBytes("image") != null){
                         byte[] imageDataAsBytes = rs.getBytes("image");
                         String imageDataBase64 = Base64.getEncoder().encodeToString(imageDataAsBytes);

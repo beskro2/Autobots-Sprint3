@@ -71,10 +71,10 @@ public class MoonServiceCreateMoonNegativeTest extends MoonServiceTest {
 
     @Before
     public void negativeSetup() {
-        negativeMoon = new Moon(userId, moonName, planetId);
+        negativeMoon = new Moon(userId, moonName, planetId, "test");
         negativeMoon.setImageData(imageData);
         mockOptional = Optional.empty();
-        mockreturnedMoon= new Moon(0,"Luna",1);
+        mockreturnedMoon= new Moon(0,"Luna",1, "test");
         mockOptional = Optional.of(mockreturnedMoon);
 
     }

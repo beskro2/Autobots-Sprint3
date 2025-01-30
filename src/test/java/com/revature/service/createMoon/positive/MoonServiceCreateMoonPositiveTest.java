@@ -37,16 +37,16 @@ public class MoonServiceCreateMoonPositiveTest extends MoonServiceTest {
 
 
     @Before public void positiveCreateMoonSetUp(){
-        positiveMoon = new Moon(0,"Sam Wise_22-",1);
-        mockReturnedMoon = new Moon(3,"Sam Wise_22-",1);
+        positiveMoon = new Moon(0,"Sam Wise_22-",1, "test");
+        mockReturnedMoon = new Moon(3,"Sam Wise_22-",1, "test");
         mockOptional = Optional.of(mockReturnedMoon);
 //--------------------------------------------------------------------------------------------------------
-        positiveMoon2 = new Moon(0,"90Champion",1);
-        mockReturnedMoon2 = new Moon(4,"90Champion",1);
+        positiveMoon2 = new Moon(0,"90Champion",1, "test");
+        mockReturnedMoon2 = new Moon(4,"90Champion",1, "test");
         mockOptional2 = Optional.of(mockReturnedMoon2);
 //--------------------------------------------------------------------------------------------------------
 
-        positiveMoon3 = new Moon(0,"Sam Wise_22-",1);
+        positiveMoon3 = new Moon(0,"Sam Wise_22-",1, "test");
         try {
             byte[] imageBytes = Files.readAllBytes(Paths.get("src/test/resources/test_images/Moon-8.jpeg")); // Read the file into a byte array
             String imagedata64 = Base64.getEncoder().encodeToString(imageBytes);
@@ -54,7 +54,7 @@ public class MoonServiceCreateMoonPositiveTest extends MoonServiceTest {
         }catch (IOException e){
             e.printStackTrace();
         }
-        mockReturnedMoon3 = new Moon(5,"Sam Wise_22-",1);
+        mockReturnedMoon3 = new Moon(5,"Sam Wise_22-",1, "test");
         try {
             byte[] imageBytes = Files.readAllBytes(Paths.get("src/test/resources/test_images/Moon-8.jpeg")); // Read the file into a byte array
             String imagedata64 = Base64.getEncoder().encodeToString(imageBytes);
@@ -65,7 +65,7 @@ public class MoonServiceCreateMoonPositiveTest extends MoonServiceTest {
         mockOptional3 = Optional.of(mockReturnedMoon3);
 //--------------------------------------------------------------------------------------------------------
 
-        positiveMoon4 = new Moon(0,"Sam Wise_22-",1);
+        positiveMoon4 = new Moon(0,"Sam Wise_22-",1, "test");
         try {
             byte[] imageBytes = Files.readAllBytes(Paths.get("src/test/resources/Celestial-Images/planet-5b.png")); // Read the file into a byte array
             String imagedata64 = Base64.getEncoder().encodeToString(imageBytes);
@@ -73,7 +73,7 @@ public class MoonServiceCreateMoonPositiveTest extends MoonServiceTest {
         }catch (IOException e){
             e.printStackTrace();
         }
-        mockReturnedMoon4 = new Moon(6,"Sam Wise_22-",1);
+        mockReturnedMoon4 = new Moon(6,"Sam Wise_22-",1, "test");
         try {
             byte[] imageBytes = Files.readAllBytes(Paths.get("src/test/resources/Celestial-Images/planet-5b.png")); // Read the file into a byte array
             String imagedata64 = Base64.getEncoder().encodeToString(imageBytes);

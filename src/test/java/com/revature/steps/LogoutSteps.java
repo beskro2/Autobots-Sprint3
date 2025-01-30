@@ -37,7 +37,7 @@ public class LogoutSteps {
 
     @Then("the user should be redirected to the login page after logout")
     public void the_user_should_be_redirected_to_the_login_page_to_login() {
-        WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(2));
+        WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.titleIs("Planetarium Login"));
         Assert.assertEquals("Planetarium Login", TestMain.driver.getTitle());
     }

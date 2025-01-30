@@ -161,7 +161,7 @@
                     idCell.textContent = moon.moonId;
                     nameCell.textContent = moon.moonName;
                     ownerCell.textContent = moon.ownerId;
-                    descriptionCell.textContent = 'moon description placeholder';
+                    descriptionCell.textContent = moon.moonDescription;
                     const moonImageElement = document.createElement('img');
                     moonImageElement.src = `data:image/jpeg;base64,${moon.imageData}`;
                     imageCell.appendChild(moonImageElement);
@@ -209,7 +209,8 @@
             return new Promise((resolve, reject) => {
                 if (element.files.length > 0) {
                     let file = element.files[0];
-                    if (file.type !== "image/jpeg"){
+                    if (file.type !== "image/jpeg" && file.type !== "image/png"){
+                        alert(`Invalid file type`);
                         reject(new Error("Invalid file type: must be an image"));
                     }
                     let reader = new FileReader();
@@ -264,6 +265,13 @@
             moonNameInput.name = 'Moon Name';
             moonNameInput.placeholder = 'Enter Moon Name';
             inputContainer.appendChild(moonNameInput);
+
+            let  moonDescriptionInput = document.createElement('input');
+            moonDescriptionInput.type = 'text';
+            moonDescriptionInput.id = 'moonDescriptionInput';
+            moonDescriptionInput.name = 'Moon Description';
+            moonDescriptionInput.placeholder= 'Enter Moon Description';
+            inputContainer.appendChild(moonDescriptionInput);
 
             let orbitedPlanetInput = document.createElement('input');
             orbitedPlanetInput.type = 'text';
@@ -340,19 +348,24 @@
                 alert("Invalid planet id");
                 return;
             }
+
+             let moonDescription = document.getElementById('moonDescriptionInput').value;
+
             let moonImageInput = document.getElementById('moonImageInput');
             let imageData = (moonImageInput.files.length > 0) ? await convertToBase64(moonImageInput) : null;
             let bodyData;
             if (imageData){
                 bodyData = {
-                        moonName: moonName,
-                        ownerId: orbitedPlanet,
-                        imageData: imageData
-                    }                
+                        "moonName": moonName,
+                        "ownerId": orbitedPlanet,
+                        "imageData": imageData,
+                        "moonDescription": moonDescription
+                    }
             } else {
                 bodyData = {
-                    moonName: moonName,
-                    ownerId: orbitedPlanet
+                    "moonName": moonName,
+                    "ownerId": orbitedPlanet,
+                    "moonDescription": moonDescription
                 }
             }
             const bodyJson = JSON.stringify(bodyData);
@@ -369,13 +382,7 @@
             if (response.status === 201) {
                 populateCelestialTable();
             } else {
-                const message = await response.text();
-                switch(message){
-                    case "character length fail":
-                    case "unique name fail":
-                        alert("invalid moon name");
-                        break;
-                }
+                alert("Invalid moon name");
             }             
         }
 

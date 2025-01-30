@@ -56,6 +56,5 @@ CREATE TABLE moons (
     )
 );
 
-INSERT INTO moons (name, myPlanetId, image) VALUES ('Luna', 1, ?);
+INSERT INTO moons (name, myPlanetId, image, description) VALUES ('Luna', 1, ?, 'My Home Planet Earth');
 INSERT INTO moons (name, myPlanetId, image) VALUES ('Titan', 2, ?);
-INSERT INTO moons (name, myPlanetId, image) VALUES ('Saturn-34', 3, ?);

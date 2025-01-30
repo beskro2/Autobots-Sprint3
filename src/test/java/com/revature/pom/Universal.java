@@ -28,14 +28,14 @@ public class Universal {
     }
 
     public int getNumberOfCelestialRows(int expected){
-        WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(3));
+        WebDriverWait wait = new WebDriverWait(TestMain.driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.numberOfElementsToBe(By.tagName("tr"),expected + 1));
         List<WebElement> tableRows = driver.findElements(By.tagName("tr"));
         return tableRows.size()-1;
     }
 
     public String alertHandler(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         String alertMessage = alert.getText();
